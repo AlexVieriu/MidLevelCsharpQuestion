@@ -1,0 +1,40 @@
+﻿Tuples:
+-> reference type
+-> bigger impact on performance
+-> properties named Item1, Item2, ...
+-> immutable
+-> 8 items limit
+
+ValueTuples:
+-> value types
+-> convenient syntax for creation
+-> fields can be named
+-> mutable
+-> can have more then 8 items
+
+
+Questions:
+1. It is possible to have a Tuple with more then eight elements?
+-> no
+
+Important:
+== operator for Tuple compares the references of the tuples
+== operator for ValueTuples compares the contents of the tuples, not the references.
+https://www.c-sharpcorner.com/UploadFile/3d39b4/difference-between-operator-and-equals-method-in-C-Sharp/#:~:text=The%20Equality%20Operator%20(%20%3D%3D)%20is,string%20variable%20to%20another%20variable.
+
+
+Example of == and Equal() operator:
+// 2 reference for the same obj
+object name = "apple";
+object myName = "apple";
+
+// 2 objects, 2 reference
+object name1 = new string("apple");
+object myName1 = new string("apple");
+
+WriteLine("== operator result is {0}", name == myName);
+WriteLine("Equals method result is {0}", myName.Equals(name));
+WriteLine();
+WriteLine("== operator result is {0}", name1 == myName1);
+WriteLine("Equals method result is {0}", myName1.Equals(name1));
+

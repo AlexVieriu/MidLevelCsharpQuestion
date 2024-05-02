@@ -1,0 +1,8 @@
+﻿How to memorize more:
+
+1. Space Repatition: 
+-> use space repetetion: https://ncase.me/remember/
+-> https://en.wikipedia.org/wiki/Hermann_Ebbinghaus
+
+Repository link:
+https://github.com/KrystynaSlusarczykLearning/50InterviewQuestionsMid

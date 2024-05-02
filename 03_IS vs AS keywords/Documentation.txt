@@ -1,0 +1,25 @@
+﻿"Is" keyword: 
+-> used to check if an object is of a given type.
+-> returns a boolean as a result
+
+"As" keyword:
+-> used to cast a variable to a given type
+-> can be cast only for reference types/Nullable types 
+
+Regular casting vs "as" keyword
+-> regular casting thorws and exception
+-> "as" returns null
+
+Questions:
+1. What is the difference between regular cast and casting with "as" keyword?
+-> regular cast will throw and runtime error when it fail casting 
+-> "as" keyword return null if failed casting
+
+2. Why can we only use the "as" keyword to cast objects to nullable types?
+-> because if casting with "as" failes null will be returned
+-> null can only be asign to Nullable types
+
+
+ChatGpt:
+"Give me and example with "Is" and "As" keyword in C# with real world example in Payments. 
+The example need to be with CreditCard(Visa, Mastercard) , Debit Card(Visa Debit, Mastercard Debit), PayPal, Digital Wallets(Google Pay), Bank Transfer"
