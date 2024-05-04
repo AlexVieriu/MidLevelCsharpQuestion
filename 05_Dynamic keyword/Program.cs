@@ -2,13 +2,13 @@
 
 dynamic text = "dynamic text";
 
-text.DoesntExist();                   // we can run it, but will crash at runtime
+//text.DoesntExist();                   // we can run it, but will crash at runtime
 
 var toUpper = text.ToUpper();           // will work
 
 string convertToString = (string)text;  // will work
 
-int integer = (int)text;              // crash at runtime
+//int integer = (int)text;              // crash at runtime
 
 Console.WriteLine($"{convertToString}");
 
@@ -28,6 +28,10 @@ var result2 = x + y;
 
 var result3 = int.Parse("2") + 8;
 
-Console.WriteLine($"Result: {result1}"); // output 28
-Console.WriteLine($"Result: {result2}"); // output 28
-Console.WriteLine($"Result: {result3}"); // output 10
+dynamic someNumber = 10;
+var result4 = someNumber + 2;
+
+Console.WriteLine($"Result1: {result1}"); // output 28
+Console.WriteLine($"Result2: {result2}"); // output 28
+Console.WriteLine($"Result3: {result3}"); // output 10
+Console.WriteLine($"Result4: {result4}"); // output 12
