@@ -1,0 +1,42 @@
+﻿What is the "dynamic" keyword?
+-> allow us to bypass static type checking
+
+Static vs Dynamic?
+-> in statically-typed languages, type checks happen at compilation time
+-> in dynamically-typed languages they happen at runtime
+
+- - - Static typing - - -
+Advantages:
+-> few runtime errors 
+-> no code needed to handle type mismatch
+-> easy to understand what object method needs
+
+Disadvantage:
+-> always be aware of the variable type
+-> language is rigid
+-> type declaration take space and clutter the code
+-> longer compilation
+-> methods are tied to specific types
+
+- - - Dynamic typing - - -
+Advantages:
+-> ability to use variables without worrying about their type
+-> language is elastic 
+-> no type declarations are needed 
+-> faster compilatiuon/interpretation
+-> methods are not tied to specific types 
+
+Disadvantage:
+-> more runtime errors 
+-> need to create code handling type mismatch
+-> can be hard to know what object a method expects 
+
+
+Questions:
+1. What is the difference between strongly-typed and weakly-typed programming languages?
+-> strongly-typed: variables are automatically converted from one type to another
+-> weakly-typed  : not the case
+
+2. What is the difference between static-typed and dynamic-typed programming languages?
+-> static-typed	: type checks are done at compile time 
+-> dynamic-typed: type checks are done at runtime

@@ -1,3 +1,7 @@
 02.1. It is possible to have a Tuple with more then eight elements?
 03.1. What is the difference between regular cast and casting with "as" keyword?
 03.2. Why can we only use the "as" keyword to cast objects to nullable types?
+04.1. What are the global using directives?
+05.1. What is the difference between strongly-typed and weakly-typed programming languages?
+05.2. What is the difference between static-typed and dynamic-typed programming languages?
+06.
