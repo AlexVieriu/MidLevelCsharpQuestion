@@ -1,0 +1,13 @@
+﻿What are expression-bodied members?
+-> are members defined with expression body instead of the regular body with braces
+-> they contain only one expression
+
+
+Question:
+1. What is and expression?
+-> is a piece of code that evaluates to some value
+-> Ex: return 1+2
+
+2. What is a statement?
+-> is a piece of code that don't evaluates to some value
+-> Ex: Console.WriteLine();
