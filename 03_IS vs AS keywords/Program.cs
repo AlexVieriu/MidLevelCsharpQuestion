@@ -8,7 +8,7 @@ bool isInt = text is int;
 // "As" keyword
 string testAsString = text as string;           // object -> string 
 
-int castToInt = text as int;                    // compile error, can't cast ref type to value type
+//int castToInt = text as int;                    // compile error, can't cast ref type to value type
 int? castToInt2 = text as int?;
 
 List<string> castToList = text as List<string>; // return null, can't cast string to List<string> 
