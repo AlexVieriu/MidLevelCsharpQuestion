@@ -5,3 +5,5 @@
 05.1. What is the difference between strongly-typed and weakly-typed programming languages?
 05.2. What is the difference between static-typed and dynamic-typed programming languages?
 06.1. What is an expression?
+07.1. What is the signature of a function that can be assigned to a variable of a type Func<int, int, bool>?
+07.2. What is an Action?
