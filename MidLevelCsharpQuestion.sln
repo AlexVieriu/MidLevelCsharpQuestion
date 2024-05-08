@@ -28,6 +28,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.2_Func, Action, Lamba ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_What are delegates", "08_What are delegates\08_What are delegates.csproj", "{D2B64BFF-7E7C-440C-B8F3-45C9B5747509}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Gabage Collector", "09_Gabage Collector\09_Gabage Collector.csproj", "{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{D2B64BFF-7E7C-440C-B8F3-45C9B5747509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2B64BFF-7E7C-440C-B8F3-45C9B5747509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2B64BFF-7E7C-440C-B8F3-45C9B5747509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

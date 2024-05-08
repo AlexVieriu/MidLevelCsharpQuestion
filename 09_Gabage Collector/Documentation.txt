@@ -1,0 +1,33 @@
+﻿Gabage collector
+-> is the CLR's mechanism responsible for memory managedment in .NET applciations
+
+When can be removed?
+-> garbage collector marks object when they can be removed and delete them from memory
+-> the object can be removed when has no reference pointed to him
+-> different languages have different Garbage Collectors, and the way they work can be the same as in .NET
+
+Methods:
+1. Reference counting (used in swift)
+Problems with this:
+-> cicler reference: A point to B, B point to A( in this case garbage collector will not remove them)
+
+2. Tracing
+-> starting by identifying applicaiton roots
+-> if an object is reachable from any of the application roots, it's included in the grapch of reachable objects
+
+Application roots:
+-> static fields in classes 
+-> local variables on the thread's stack 
+
+Questions:
+1. What us the mark-and-sweep algorithm?
+-> it's the algorithm that the garbage collector implements
+-> it marks the objects that need to be removed and then sweep them from memory
+
+2. How many stacks are there in a running .NET application?
+-> there are as many stacks as threads, each thread has his own stack
+
+3. What 2 main algorithms of identifying used and unused objects 
+are implemented by tools similar to .NET Garbage Collector?
+-> reference counting
+-> tracing: builds a graph of reachability starting from app roots 

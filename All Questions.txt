@@ -9,4 +9,6 @@
 07.2. What is an Action?
 08.1. What is the difference between a Func and a delegate?
 08.2. What is a multicast delegate?
-09.
+09.1. What us the mark-and-sweep algorithm?
+09.2. How many stacks are there in a running .NET application?
+09.3. What 2 main algorithms of identifying used and unused objects are implemented by tools similar to .NET Garbage Collector?
