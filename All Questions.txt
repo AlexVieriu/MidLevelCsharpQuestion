@@ -7,3 +7,6 @@
 06.1. What is an expression?
 07.1. What is the signature of a function that can be assigned to a variable of a type Func<int, int, bool>?
 07.2. What is an Action?
+08.1. What is the difference between a Func and a delegate?
+08.2. What is a multicast delegate?
+09.

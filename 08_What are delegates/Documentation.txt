@@ -1,0 +1,13 @@
+﻿What are delegates?
+-> a delegate is a type whose instances hold a reference to a method(or methods) 
+with a particular parameter list and return type
+
+delegate [return type] [name of the delegate]([input parameters]);
+delegate string ProcessString(string input1, int input2, ...);
+
+Questions
+1. What is the difference between a Func and a delegate?
+-> Func is a delegate
+
+2. What is a multicast delegate?
+=> a delegate holding references to multiple functions
