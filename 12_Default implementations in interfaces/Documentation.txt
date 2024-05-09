@@ -1,0 +1,24 @@
+﻿Interface(with C#8):
+-> can have methods implementations
+-> can have private methods; but only with implementation
+-> can have fields (static only)
+
+Access Modifiers for interfaces:
+-> if you specify an access modifier for an explicit interface implementation, you get compiler error CS0106
+
+What are default implementation in interfaces?
+-> available with C# 8
+-> designed to make it easier to add new methods to interfaces without breaking the existing code
+-> enable C# to work with APIs targeting Android and iOS as those languages support similar features
+-> enable using traits
+	-> a set of methods that can be used to extend the functionality of a class
+	-> https://en.wikipedia.org/wiki/Trait_(computer_programming)
+	-> https://dlang.org/spec/traits.html
+	-> https://stackoverflow.com/questions/59547812/c-sharp-interface-with-default-method-vs-traits
+
+Recomandation:
+-> be aware that such a feature exists
+-> use interfaces as they were meant to be used before C# 8
+
+1. What could be the reason to use default implementations in interfaces?
+-> for nuggget packages, so we don't add a lot of extra intrafaces for new methods

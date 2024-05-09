@@ -19,7 +19,7 @@ using (StreamReader reader = File.OpenText(outputPath))
 File.Delete(outputPath);
 
 
-// Example 2 (min 6:00)
+// Example 2 
 SomeMethod();
 
 GC.Collect();

@@ -18,3 +18,6 @@
 11.2. Does the Garbage Collector call the Dispose method?
 11.3. When should we right our own Destructors?
 11.4. What are managed and unmanaged resources?
+12.1. What could be the reason to use default implementations in interfaces?
+13.1. What could be the reason to use default implementations in interfaces?
+14.
