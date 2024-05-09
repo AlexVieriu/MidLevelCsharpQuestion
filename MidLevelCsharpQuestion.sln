@@ -26,9 +26,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.1_Func, Action, Lamba ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.2_Func, Action, Lamba expression Advanced", "07_Func, Action, Lamba expression Advanced\07.2_Func, Action, Lamba expression Advanced.csproj", "{5E73C226-8806-42C4-B90C-36B6C223203D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_What are delegates", "08_What are delegates\08_What are delegates.csproj", "{D2B64BFF-7E7C-440C-B8F3-45C9B5747509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_What are delegates", "08_What are delegates\08_What are delegates.csproj", "{D2B64BFF-7E7C-440C-B8F3-45C9B5747509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Gabage Collector", "09_Gabage Collector\09_Gabage Collector.csproj", "{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Gabage Collector", "09_Gabage Collector\09_Gabage Collector.csproj", "{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Dispose vs Finalize methods", "11_Dispose vs Finalize methods\11_Dispose vs Finalize methods.csproj", "{8ABDDD4C-8F59-4EA9-888E-4937820B82E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_What are generations", "10_What are generations\10_What are generations.csproj", "{4FFEBB3C-C3D7-4EBC-80DF-C6DB15CE2501}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,6 +84,14 @@ Global
 		{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFEA86E-0F68-4C54-8919-A9DC8019CAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABDDD4C-8F59-4EA9-888E-4937820B82E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABDDD4C-8F59-4EA9-888E-4937820B82E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABDDD4C-8F59-4EA9-888E-4937820B82E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABDDD4C-8F59-4EA9-888E-4937820B82E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFEBB3C-C3D7-4EBC-80DF-C6DB15CE2501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFEBB3C-C3D7-4EBC-80DF-C6DB15CE2501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFEBB3C-C3D7-4EBC-80DF-C6DB15CE2501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFEBB3C-C3D7-4EBC-80DF-C6DB15CE2501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

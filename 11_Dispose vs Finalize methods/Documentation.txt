@@ -1,0 +1,57 @@
+﻿Dispose:
+-> used to free unmanaged resources
+
+Finalize:
+-> is the method that is called on a object when it is being cleaned up by the Garbage Collector
+-> it can't be used on Struct, only objects
+
+Managed resources:
+-> managed by the CRL
+-> any C# object is a managed resource
+-> the Garbage Collector handles their cleanup
+
+Unmanaged resources
+-> the Garbage Collector doesn't know about them 
+-> database connections, file handlers, COM objects or opened network connections
+
+If a class uses unmanaged resources it should implement the IDisposable interface.
+
+In C#, the destructor, the finalizer and the Finalize method are the same things.
+
+Finalizers:
+-> finalizers cannot be defined in structs, they are only used with classes
+-> a class can only have one finalizer
+-> finalizers cannot be inherited or overloaded
+-> finalizers cannot be called, they are invoked automatically
+-> a finalizer does not take modifiers or have parameters
+
+Finalize() method:
+-> you can't call the method in .NET core or later, only in .Net Framework
+-> https://github.com/dotnet/csharpstandard/issues/291
+-> https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/finalizers
+
+
+Important!!
+-> if a class uses resources that need to be cleaned up, use Dispose method, not the destructor
+
+Eric Lippert:
+-> if you make a destructor be extremely carefull and understand how the Garbage Collector works
+-> thet don't run on your thred, they run on their own thread; this can cause deadlocks
+-> an unhandled exception thrown from a destructor is bad news, it's on its own thread; who it's going to catch it?
+-> a destructor might never run; you can rely on the object ever veing scheduled for finalization; 
+it probably will be but that's not a garantee
+
+Questions:
+1. What is the difference between a destructor, a finalizer, and the Finalize method?
+-> they are the same
+-> during the compilation the destructor is changed to the Finalize method
+
+2. Does the Garbage Collector call the Dispose method?
+-> no, we are calling by using the "using" statement
+
+3. When should we right our own Destructors?
+-> never
+
+4. What are managed and unmanaged resources?
+managed		: any C# object is a managed resource
+unmanaged	: database connections, file handlers, COM objects or opened network connections
