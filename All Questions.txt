@@ -21,3 +21,5 @@
 12.1. What could be the reason to use default implementations in interfaces?
 13.1. What is the difference between the destructor and the Deconstruct method?
 13.2. How can we define deconstruction for types that we did not create and we don't have access to their source code?
+14.1. What are the acceptable cases of catching any type of exception?
+14.2. What is the global catch block?
