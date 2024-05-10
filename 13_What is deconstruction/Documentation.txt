@@ -1,15 +1,15 @@
 ﻿What is Deconstruction?
--> is a mechanism that allow braking a tuple into individual variables
+-> is a mechanism that allow breaking a tuple into individual variables
 -> it is also possible to define how deconstruction should work 
 for user-defined typed by implementing the Deconstruct method
 
 Questions:
 1. What is the difference between the destructor and the Deconstruct method?
--> destructor is called upen an object when is removed from memory by the Garbage Collector
+-> destructor is called upon an object when is removed from memory by the Garbage Collector
 -> Destruct method is used to split the tuple, value tuple and positional records into indivudial variables
 
 2. How can we define deconstruction for types that we did not create and we don't have access to their source code?
--> we can define the Deconstruct method as an extention method for this type
+-> by defining the Deconstruct method as an extention method for this type
 
 In this example the .Net is already implement a Deconstruct, but it is just for getting and example how to do it.
 

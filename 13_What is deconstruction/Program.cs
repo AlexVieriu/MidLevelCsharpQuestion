@@ -1,35 +1,10 @@
 ﻿using static System.Console;
 
-// Example 2
-var pet = new Pet("Hannibal", PetType.Fish, 1.1f);
-
-// working only with Deconstruct method implemented in the class
-var (name, type, weight) = pet;
-
-
-// Example 3 - deconstruct a DateTime object
-var date = new DateTime(2022, 1, 1);
-var (year, month, day) = date;
-
-// - - - - - - - - -  Example 1 - - - - - - - - - - - - 
-(int sum, int count, double average) AnalyzerNumber(IEnumerable<int> numbers)
-{
-    var sum = 0;
-    var count = 0;
-    foreach (var number in numbers)
-    {
-        sum += number;
-        count++;
-    }
-
-    var average = (double)sum / count;
-    return (sum, count, average);
-}
-
+// Example 1 - - - - - - - - - - - - - - - - - - - - - - - -
 var numbers = new[] { 1, 4, 2, 6, 11, 5, 83, 1, 2 };
 var analysisResult = AnalyzerNumber(numbers);
 
-// Case 1: store the tuples in variables
+// Case 1: store the ValueTuple in variables
 var count = analysisResult.count;
 var sum = analysisResult.sum;
 var average = analysisResult.average;
@@ -40,7 +15,7 @@ var (sum1, count1, average1) = AnalyzerNumber(numbers);
 // Case 3: if we don't want to declare a variable we use _
 var (sum2, _, average2) = AnalyzerNumber(numbers);
 
-// Case 4: deconstruct tuple into variable that we already have
+// Case 4: deconstruct ValueTuple into variables that we already have
 int sum3;
 double average3;
 (sum3, var count3, average3) = AnalyzerNumber(numbers);
@@ -57,10 +32,35 @@ else
         $"with total sum of {sum}/{sum2}/{sum3} and " +
         $"average of {average}/{average1}/{average2}/{average3}");
 
-var numbersAverageSize = average > 100 ? "large" : "small";
+
+// Example 2  - - - - - - - - - - - - - - - - - - - - - - - -
+var pet = new Pet("Hannibal", PetType.Fish, 1.1f);
+
+// working only with Deconstruct method implemented in the class
+var (name, type, weight) = pet;
 
 
-// - - - - - - - - - - - - Example 2 - - - - - - - - - - - - - - - - - - 
+// Example 3 - deconstruct a DateTime object
+var date = new DateTime(2022, 1, 1);
+var (year, month, day) = date;
+
+
+// Example 1 - - - - - - - - - - - - - - - - - - 
+(int sum, int count, double average) AnalyzerNumber(IEnumerable<int> numbers)
+{
+    var sum = 0;
+    var count = 0;
+    foreach (var number in numbers)
+    {
+        sum += number;
+        count++;
+    }
+
+    var average = (double)sum / count;
+    return (sum, count, average);
+}
+
+// Example 2 - - - - - - - - - - - - - - - - - - 
 class Pet
 {
     public string Name { get; set; }
