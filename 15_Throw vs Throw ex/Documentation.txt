@@ -1,0 +1,29 @@
+﻿What is the difference between Throw and Throw ex?
+
+Throw:
+-> preserves the stack trace
+-> the stack trace will point to the method that caused the exception in the first place
+
+Throw ex:
+-> resets the stack trace
+-> we will lose the information about the method that caused the exception in the first place
+
+Stack trace
+-> is a trace of all methods that have been called, that lead to a particular moment in code
+-> helps us track where some exceptions happened
+
+Example:
+-> imagine if we have a huge app and when is throwing an exception, all it says is "the object is null"
+-> we want to know the exact method and line that cause it
+
+When to use "throw ex""?
+-> never
+-> if the compile let me to write this "throw new ArgumentException(...)", he is letting me to write this "throw ex"
+
+Questions:
+1. What is the stack trace?
+-> is a trace of all methods that have been called, that lead to a particular moment in code
+
+2. Should we use "throw" or "throw ex" and why?
+-> use throw so we can follow from what line and method the error was thrown
+-> never use "throw ex" because it resets the stack trace

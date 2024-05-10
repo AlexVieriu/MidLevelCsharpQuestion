@@ -40,6 +40,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_What is deconstruction",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Catch(Exception) when is bad or good", "14_Catch(Exception) when is bad or good\14_Catch(Exception) when is bad or good.csproj", "{03656375-FDDD-4DEA-B329-F25A5B3700BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Throw vs Throw ex", "15_Throw vs Throw ex\15_Throw vs Throw ex.csproj", "{ACC073D4-29A3-4B34-93BA-3AC4E9A01D17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,10 @@ Global
 		{03656375-FDDD-4DEA-B329-F25A5B3700BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03656375-FDDD-4DEA-B329-F25A5B3700BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03656375-FDDD-4DEA-B329-F25A5B3700BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC073D4-29A3-4B34-93BA-3AC4E9A01D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC073D4-29A3-4B34-93BA-3AC4E9A01D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC073D4-29A3-4B34-93BA-3AC4E9A01D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC073D4-29A3-4B34-93BA-3AC4E9A01D17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
