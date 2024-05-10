@@ -19,5 +19,5 @@
 11.3. When should we right our own Destructors?
 11.4. What are managed and unmanaged resources?
 12.1. What could be the reason to use default implementations in interfaces?
-13.1. What could be the reason to use default implementations in interfaces?
-14.
+13.1. What is the difference between the destructor and the Deconstruct method?
+13.2. How can we define deconstruction for types that we did not create and we don't have access to their source code?
