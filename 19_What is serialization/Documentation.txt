@@ -1,0 +1,18 @@
+﻿What is Serialization?
+-> the process of converting an object into a format that can be stored in memory or transmitted over a network
+-> ex: the object can be converted into a text file containing JSON and XML, or binary file
+
+Deserializarion:
+-> use the content of a file to recreate an object
+
+Use JSON.Net by Newtonsoft library
+
+Questions:
+1. What is the uses of Serialization?
+-> to send objects to a network(object -> JSON) or to store objects in a file/database (JSON -> object)
+
+2. What does the Serializable attribute do?
+-> indicate that instances of a type can be serialize for binary/SOAP formatter
+
+3. What is deserialization?
+-> using the content of a file to recreate objects 

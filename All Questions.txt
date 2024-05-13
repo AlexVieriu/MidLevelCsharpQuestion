@@ -31,3 +31,6 @@
 17.1. What are the downside of using reflection?
 18.1. What is metadata?
 18.2. How to define a custom attribute?
+19.1. What is the uses of Serialization?
+19.2. What does the Serializable attribute do?
+19.3. What is deserialization?
