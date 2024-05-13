@@ -1,0 +1,23 @@
+﻿typeof
+-> takes the name of the type
+-> is resolved at compilation time
+
+
+GetType
+-> called on any object
+-> is resolved at runtime
+
+Common functionality:
+-> return the Type object, which holds information about some type
+
+Questions:
+1. What is the purpose of the GetType method?
+-> get the information about the type of an object
+	-> type names
+	-> list of constructor
+	-> attributes
+-> used only for objects
+-> it runs at runtime
+
+2. Where is the GetType method defined?
+-> System.Object
