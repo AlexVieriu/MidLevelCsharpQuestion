@@ -18,7 +18,7 @@ Reflexion downside
 
 
 Questions:
-1.What are the downside of using reflection?
+1. What are the downside of using reflection?
 -> hard to maintain and understand 
 -> prone to errors
 -> big performance impact

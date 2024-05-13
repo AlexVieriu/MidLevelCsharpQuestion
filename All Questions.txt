@@ -28,4 +28,6 @@
 15.2. Should we use "throw" or "throw ex" and why?
 16.1. What is the purpose of the GetType method?
 16.2. Where is the GetType method defined?
-17.1.What are the downside of using reflection?
+17.1. What are the downside of using reflection?
+18.1. What is metadata?
+18.2. How to define a custom attribute?

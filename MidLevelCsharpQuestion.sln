@@ -44,7 +44,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_Throw vs Throw ex", "15_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_GetType vs typeof", "16_GetType vs typeof\16_GetType vs typeof.csproj", "{E8DE9257-7728-49AC-9509-42F776484D44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_What is reflexion", "17_What is reflexion\17_What is reflexion.csproj", "{17E223CC-1EA7-42DA-9F38-38F3CDE5B079}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_What is reflexion", "17_What is reflexion\17_What is reflexion.csproj", "{17E223CC-1EA7-42DA-9F38-38F3CDE5B079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_What are attributes", "18_What are attributes\18_What are attributes.csproj", "{FB737ACB-D3AA-4252-AE36-A060789E827C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,6 +130,10 @@ Global
 		{17E223CC-1EA7-42DA-9F38-38F3CDE5B079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17E223CC-1EA7-42DA-9F38-38F3CDE5B079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17E223CC-1EA7-42DA-9F38-38F3CDE5B079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB737ACB-D3AA-4252-AE36-A060789E827C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB737ACB-D3AA-4252-AE36-A060789E827C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB737ACB-D3AA-4252-AE36-A060789E827C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB737ACB-D3AA-4252-AE36-A060789E827C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

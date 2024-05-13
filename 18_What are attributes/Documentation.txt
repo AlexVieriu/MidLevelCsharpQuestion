@@ -1,0 +1,26 @@
+﻿What are attributes?
+-> attributes add metadata to a type
+-> are a way to add information about a type or a method to the existing metadata 
+which describes that type or method, which we can read from the Type object
+
+Metadata:
+-> is data providing information about some data
+
+Method chaining:
+
+var propertiesToValidate = obj
+    .GetType()
+    .GetProperties()
+    .Where(property => Attribute.IsDefined(property, typeof(StringLengthValidateAttribute)));
+
+https://www.c-sharpcorner.com/article/fluent-interface-pattern-in-c-sharp-with-inheritance-problem/
+https://github.com/AlexVieriu/Junior-C-Interview-Question/blob/master/43_Builder%20design%20pattern/Program.cs
+
+Questions:
+1. What is metadata?
+-> is data describing other data
+-> we can access it using reflection and get information, for ex about type and get information
+about what methods or constructors it contains
+
+2. How to define a custom attribute?
+-> by defining a class derived from Attribute class 
