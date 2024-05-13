@@ -23,7 +23,7 @@ Advantages:
 -> ability to use variables without worrying about their type
 -> language is elastic 
 -> no type declarations are needed 
--> faster compilatiuon/interpretation
+-> faster compilation/interpretation
 -> methods are not tied to specific types 
 
 Disadvantage:

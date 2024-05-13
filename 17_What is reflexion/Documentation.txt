@@ -1,0 +1,24 @@
+﻿What is reflexion?
+-> it's a mechanism that allows us to write code that can inspect types used in the application
+-> allows us to access some information at runtime
+
+Reflexion abilities
+-> loading *.dll at runtime
+-> instantiating objects or given type at runtime
+-> finding all classes with the given [base type]/[implemented interface]
+-> reading the attributes
+-> running a method by its name
+-> debugging
+-> creating new types at runtime(System.Reflection.Emit)
+
+Reflexion downside
+-> hard to maintain and understand 
+-> prone to errors
+-> big performance impact
+
+
+Questions:
+1.What are the downside of using reflection?
+-> hard to maintain and understand 
+-> prone to errors
+-> big performance impact

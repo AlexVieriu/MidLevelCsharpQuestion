@@ -1,5 +1,5 @@
-﻿Gabage collector
--> is the CLR's mechanism responsible for memory managedment in .NET applciations
+﻿Garbage collector
+-> is one of the CLR's mechanism responsible for memory management in .NET applications
 
 When can be removed?
 -> garbage collector marks object when they can be removed and delete them from memory
@@ -9,18 +9,18 @@ When can be removed?
 Methods:
 1. Reference counting (used in swift)
 Problems with this:
--> cicler reference: A point to B, B point to A( in this case garbage collector will not remove them)
+-> circle reference: A point to B, B point to A( in this case garbage collector will not remove them)
 
 2. Tracing
--> starting by identifying applicaiton roots
--> if an object is reachable from any of the application roots, it's included in the grapch of reachable objects
+-> starting by identifying application roots
+-> if an object is reachable from any of the application roots, it's included in the graph of reachable objects
 
 Application roots:
 -> static fields in classes 
 -> local variables on the thread's stack 
 
 Questions:
-1. What us the mark-and-sweep algorithm?
+1. What is the mark-and-sweep algorithm?
 -> it's the algorithm that the garbage collector implements
 -> it marks the objects that need to be removed and then sweep them from memory
 

@@ -35,11 +35,11 @@ Important!!
 -> if a class uses resources that need to be cleaned up, use Dispose method, not the destructor
 
 Eric Lippert:
--> if you make a destructor be extremely carefull and understand how the Garbage Collector works
--> thet don't run on your thred, they run on their own thread; this can cause deadlocks
--> an unhandled exception thrown from a destructor is bad news, it's on its own thread; who it's going to catch it?
--> a destructor might never run; you can rely on the object ever veing scheduled for finalization; 
-it probably will be but that's not a garantee
+-> if you make a destructor be extremely careful and understand how the Garbage Collector works
+-> they don't run on your thread, they run on their own thread; this can cause deadlocks
+-> an unhand-led exception thrown from a destructor is bad news, it's on its own thread; who it's going to catch it?
+-> a destructor might never run; you can rely on the object ever being scheduled for finalization; 
+it probably will be but that's not a guarantee
 
 Questions:
 1. What is the difference between a destructor, a finalizer, and the Finalize method?

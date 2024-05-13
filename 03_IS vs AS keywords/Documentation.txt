@@ -7,17 +7,17 @@
 -> can be cast only for reference types/Nullable types 
 
 Regular casting vs "as" keyword
--> regular casting thorws and exception
+-> regular casting throws and exception
 -> "as" returns null
 
 Questions:
 1. What is the difference between regular cast and casting with "as" keyword?
--> regular cast will throw and runtime error when it fail casting 
+-> regular cast will throw an runtime error when it fail casting 
 -> "as" keyword return null if failed casting
 
 2. Why can we only use the "as" keyword to cast objects to nullable types?
--> because if casting with "as" failes null will be returned
--> null can only be asign to Nullable types
+-> because if casting with "as" failles, null will be returned
+-> null can only be assign to Nullable types
 
 
 ChatGpt:

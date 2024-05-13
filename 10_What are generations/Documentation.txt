@@ -3,7 +3,7 @@
 -> remove those objects from memory
 -> defragment the memory 
 
-Optimisation:
+Optimization:
 -> if some objects survives a couple of cycles of the Garbage Collector's work, it's most likely long-lived
 and should be removed only once every couple of cycles of the Garbage Collector's work 
 
@@ -23,8 +23,8 @@ Large Objects Heap:
 
 Questions:
 1. What is the Large Objects Heap(LOH)?
--> is the speacial aria of the HEAP result for objects larger then 85000bites
+-> is the special aria of the HEAP result for objects larger then 85000bites
 -> belong to generation 2 from the beginning
 
-2. What does it mean that hte objec tis pinnned?
+2. What does it mean that the object is pinned?
 -> will not be moved during the fragmentation

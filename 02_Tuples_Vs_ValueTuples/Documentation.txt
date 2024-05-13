@@ -12,11 +12,6 @@ ValueTuples:
 -> mutable
 -> can have more then 8 items
 
-
-Questions:
-1. It is possible to have a Tuple with more then eight elements?
--> no
-
 Important:
 == operator for Tuple compares the references of the tuples
 == operator for ValueTuples compares the contents of the tuples, not the references.
@@ -37,4 +32,8 @@ WriteLine("Equals method result is {0}", myName.Equals(name));
 WriteLine();
 WriteLine("== operator result is {0}", name1 == myName1);
 WriteLine("Equals method result is {0}", myName1.Equals(name1));
+
+Questions:
+1. It is possible to have a Tuple with more then eight elements?
+-> no
 

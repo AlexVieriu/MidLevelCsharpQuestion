@@ -1,4 +1,7 @@
-﻿using static System.Console;
+﻿// Ignore Spelling: Deconstruct
+
+using System;
+using static System.Console;
 
 // Example 1 - - - - - - - - - - - - - - - - - - - - - - - -
 var numbers = new[] { 1, 4, 2, 6, 11, 5, 83, 1, 2 };
@@ -40,9 +43,13 @@ var pet = new Pet("Hannibal", PetType.Fish, 1.1f);
 var (name, type, weight) = pet;
 
 
-// Example 3 - deconstruct a DateTime object
+// Example 3 - deconstruct a DateTime object, only with .Net 7 or lower
 var date = new DateTime(2022, 1, 1);
 var (year, month, day) = date;
+
+// Example 4 
+var date1 = new DateTime(2022, 1, 1);
+var (year1, month1, day1) = date;
 
 
 // Example 1 - - - - - - - - - - - - - - - - - - 
@@ -87,4 +94,14 @@ class Pet
 enum PetType
 {
     Fish
+}
+
+static class DateTimeExtension
+{
+    public static void Deconstruct(this DateTime date, out int year, out int month, out int day)
+    {
+        year = date.Year;
+        month = date.Month;
+        day = date.Day;
+    }
 }

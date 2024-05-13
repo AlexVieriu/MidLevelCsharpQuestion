@@ -10,4 +10,4 @@ Questions
 -> Func is a delegate
 
 2. What is a multicast delegate?
-=> a delegate holding references to multiple functions
+-> a delegate holding references to multiple functions

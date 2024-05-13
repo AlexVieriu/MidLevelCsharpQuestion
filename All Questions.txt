@@ -5,11 +5,12 @@
 05.1. What is the difference between strongly-typed and weakly-typed programming languages?
 05.2. What is the difference between static-typed and dynamic-typed programming languages?
 06.1. What is an expression?
+06.2. What is a statement?
 07.1. What is the signature of a function that can be assigned to a variable of a type Func<int, int, bool>?
 07.2. What is an Action?
 08.1. What is the difference between a Func and a delegate?
 08.2. What is a multicast delegate?
-09.1. What us the mark-and-sweep algorithm?
+09.1. What is the mark-and-sweep algorithm?
 09.2. How many stacks are there in a running .NET application?
 09.3. What 2 main algorithms of identifying used and unused objects are implemented by tools similar to .NET Garbage Collector?
 10.1. What is the Large Objects Heap(LOH)?
@@ -27,4 +28,4 @@
 15.2. Should we use "throw" or "throw ex" and why?
 16.1. What is the purpose of the GetType method?
 16.2. Where is the GetType method defined?
-17.
+17.1.What are the downside of using reflection?

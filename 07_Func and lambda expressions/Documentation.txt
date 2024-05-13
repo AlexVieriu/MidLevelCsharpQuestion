@@ -8,14 +8,12 @@ Func<int, int, int> addFunc = (x, y) => x + y;
 Func<T1, T2,..., Tout> funcFunction = (T1,T2,T3,...) => [expression that return a result of Tout type]
 Action<T1,T2,...> actionFunction = (T1,T2,T3,...) => [void expression] 
 
-
 -> lamba expression is good when we declare short specific function
--> used a lot when working with link
+-> used a lot when working with LINQ
 
 
 Questions:
-1. What is the signature of a function that can be assigned to a variable of a type 
-Func<int, int, bool>?
+1. What is the signature of a function that can be assigned to a variable of a type Func<int, int, bool>?
 -> takes 2 int parameters and return a bool 
 
 2. What is an Action?

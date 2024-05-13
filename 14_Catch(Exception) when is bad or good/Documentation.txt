@@ -1,6 +1,6 @@
 ﻿Why is catch(Exception) almost always a bad idea(and when is not)?
 -> because when you catch an exception, you should handle it appropriately
--> it's hard to do if the type is not specific
+-> it's hard to do it, if the type is not specific
 
 What other exception can be thrown?
 -> StackOverflowException, OutOfMemoryException, ...
@@ -11,7 +11,7 @@ Example LINQ:
 	-> InvalidOperationException
 
 -> we can find what kind of exception a method is throwing by hover over the method
--> never mask the exceptions with a general exception
+-> never mask the exceptions with a general exception !!
 
 When to use general catch(Exception)?
 -> in the Program.cs folder
@@ -31,7 +31,7 @@ Summary:
 Questions:
 1. What are the acceptable cases of catching any type of exception?
 -> the global catch block (ex: Program.cs)
--> any catch block where we rethrown an exception without handling it
+-> any catch block where we re-thrown an exception without handling it
 
 2. What is the global catch block?
 -> it's the catch block defend on the most upper level of the application

@@ -1,8 +1,8 @@
 ﻿// Interface changes C# 8
 
 // Step 4
-//var order = new CustomerOrder();
-//order.DelayDeliveryByDays(5);       // don't work
+var order = new CustomerOrder();
+order.DelayDeliveryByDays(5);       // don't work
 
 IOrder iOrder = new CustomerOrder();
 iOrder.DelayDeliveryByDays(5);      // work
@@ -31,7 +31,7 @@ public interface IOrder
 
 // (Step 2): we can another interface 
 // the problem is after a long period of time will add a lot of interfaces and will be hard to maintain
-public interface ICancellableOrder : IOrder
+public interface ICancellationOrder : IOrder
 {
     void Cancel();
 }
@@ -50,11 +50,16 @@ public interface ICustomer
 }
 
 // (Step 4)
-class CustomerOrder : IOrder
+class CustomerOrder : IOrder, ICancellationOrder
 {
     public IEnumerable<IItem> Items => new List<IItem>();
 
     public ICustomer Customer { get; }
+
+    public void Cancel()
+    {
+        Console.WriteLine("The order was canceled");
+    }
 
     public void Place()
     {
@@ -63,7 +68,7 @@ class CustomerOrder : IOrder
 }
 
 // (Step 5)
-class CustomerOrderWithDelay : IOrder
+class CustomerOrderWithDelay : IOrder, ICancellationOrder
 {
     public IEnumerable<IItem> Items => new List<IItem>();
 
@@ -77,5 +82,10 @@ class CustomerOrderWithDelay : IOrder
     public void DelayDeliveryByDays(int Days)
     {
         Console.WriteLine($"{nameof(DelayDeliveryByDays)} from {nameof(CustomerOrderWithDelay)}");
+    }
+
+    public void Cancel()
+    {
+        Console.WriteLine("The order was canceled");
     }
 }
