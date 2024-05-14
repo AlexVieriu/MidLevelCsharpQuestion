@@ -1,0 +1,9 @@
+﻿What is pattern matching?
+-> pattern matching is a technique where you test an expression to determine if it has certain characteristics
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching
+
+Questions:
+1. How can we check if an object is of a given type, and cast to it this type in the same statement?
+-> using pattern matching
+ex: if (obj is string asString2)
+        Console.WriteLine("String is:" + asString2);
