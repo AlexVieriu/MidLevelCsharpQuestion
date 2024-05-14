@@ -38,3 +38,6 @@
 21.1. What is the decimal representation of number 101?
 21.2. Why arithmetic operations in programming can give unexpected results, 
 like for example adding 2 large integers can give a negative number?
+22.1. What is the purpose of the "unchecked" keyword?
+22.2. What is a silent failure?
+22.3. What is the BigInteger type?

@@ -50,9 +50,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_What are attributes", "1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_What is serialization", "19_What is serialization\19_What is serialization.csproj", "{859E692C-38C4-4A59-BE0E-E3F43DCD43CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_What is pattern matching", "20_What is pattern matching\20_What is pattern matching.csproj", "{7EF830DB-ABC1-441F-B809-139CB2665452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_What is pattern matching", "20_What is pattern matching\20_What is pattern matching.csproj", "{7EF830DB-ABC1-441F-B809-139CB2665452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_How binary number work", "21_How binary number work\21_How binary number work.csproj", "{0159518F-10B6-49B6-8CE3-03E0C68755CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_How binary number work", "21_How binary number work\21_How binary number work.csproj", "{0159518F-10B6-49B6-8CE3-03E0C68755CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_checked keyword", "22_checked keyword\22_checked keyword.csproj", "{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -152,6 +154,10 @@ Global
 		{0159518F-10B6-49B6-8CE3-03E0C68755CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0159518F-10B6-49B6-8CE3-03E0C68755CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0159518F-10B6-49B6-8CE3-03E0C68755CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

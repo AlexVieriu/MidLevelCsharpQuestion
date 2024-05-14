@@ -1,0 +1,37 @@
+﻿What is the purpose of the "checked" keyword?
+-> is used to define in which arithmetic operations will be checked for overflow
+
+"checked" keyword in practice
+-> be aware of the limitations of the types you are using
+-> choose proper numeric types for specific purposes
+
+Example:
+ToDo app:
+-> doesn't have more then 100 elements: use byte (limitation is 256)
+
+Banking app:
+-> use long
+-> int.MaxValue = 2147483647
+-> long.MaxValue > 4.000.000.000 * int.MaxValue
+-> BigInterger = is limited only by the size of the PC computer(it's called unlimited size)
+
+In case of potential undesired overflow:
+-> put this code in checked context
+-> check for overflow before actual calculation
+
+Run benchmarks on your own in this cases.
+
+Questions:
+1. What is the purpose of the "unchecked" keyword?
+-> this keyword defines a scope in which checking of arithmetic overflow is disabled
+-> use it when the "checked" keyword is used globally
+-> global checked can be set at the project level settings
+
+2. What is a silent failure?
+-> it is a kind of failure that happens without any notification to the user or developer
+-> they are not informed that something went wrong and the application moves on, 
+possibly in an invalid state
+
+3. What is the BigInteger type?
+-> is a numeric type that is only limited by the memory of the PC
+-> used to represent gigantic numbers
