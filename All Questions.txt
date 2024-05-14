@@ -41,3 +41,6 @@ like for example adding 2 large integers can give a negative number?
 22.1. What is the purpose of the "unchecked" keyword?
 22.2. What is a silent failure?
 22.3. What is the BigInteger type?
+23.1. What is the difference between double and float?
+23.2. What is the NaN?
+23.3. What numeric type should be use to represent money?

@@ -1,0 +1,55 @@
+﻿Double vs Decimal?
+
+Double:
+-> a floating-point binary number
+-> optimized for performance
+-> 8bytes					(smaller size)
+-> 5*10^-324  to 5*10^308	(bigger range) 
+
+Decimal:
+-> a floating-point decimal number
+-> optimized for precision
+-> 16bytes					(bigger size)
+-> 5*10^-28  to 5*10^28		(smaller range) 
+
+Floating-point numbers:
+-> 1/2, 1/3, 1/4 (can't be integer)
+
+mantissa =	scaled representation of the number (12362)
+exponent =	says what the scale is (123.62)
+			will say where the decimal point(".") will be
+			that's why they are called floating numbers, because the point is moving
+
+Decimal:
+-> 32456 * 10^(-2) = 324.56 (this is in base 10 for double, not in base 2 - for decimal)
+
+Double:
+-> 1 bit for sign, 52 for mantissa and 11 for exponent)
+
+Note:
+-> a variable of Double type can have a specific value called NaN - Not a number
+ex: 0/0 = NaN
+-> for Decimal u get and compilation error
+
+When to use doubles:
+-> representing "natural" number
+-> length, speed, position
+-> industrial application, games
+
+When to use decimal:
+-> representing "human-made" numbers, that need to be precisely represented
+-> money, points in games
+-> finance
+
+Questions:
+1. What is the difference between double and float?
+-> double on 64bits, float is on 32bits
+-> they are the same in the rest
+
+2. What is the NaN?
+-> it's a result from operation with double numbers that can't be done
+-> ex: 0/0
+-> not a number
+
+3. What numeric type should be use to represent money?
+-> decimal

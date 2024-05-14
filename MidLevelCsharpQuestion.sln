@@ -56,6 +56,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_How binary number work",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_checked keyword", "22_checked keyword\22_checked keyword.csproj", "{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_double vs decimal", "23_double vs decimal\23_double vs decimal.csproj", "{B05AABCE-D669-4442-B6E6-0F372CFF8619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -158,6 +160,10 @@ Global
 		{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05AABCE-D669-4442-B6E6-0F372CFF8619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05AABCE-D669-4442-B6E6-0F372CFF8619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05AABCE-D669-4442-B6E6-0F372CFF8619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05AABCE-D669-4442-B6E6-0F372CFF8619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
