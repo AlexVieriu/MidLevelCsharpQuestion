@@ -1,0 +1,35 @@
+﻿What is an Array?
+-> is the most basic collection in C#
+-> think as a collection of boxes, each one holding a single value
+-> each box has its index, starting at zero and ending at array length -1
+-> one an Array is created, the size can't be changed
+-> not a good choice if the collection is changing
+
+Advantages:
+-> are reference types
+-> most native types of collection, many other collections base on them
+-> are fast; we can get or set element at index in constant time
+-> multidimensional array are commonly used in mathematical usage and games(snake/chess)
+
+Disadvantages:
+-> their size is fixed
+-> it's not a dynamic collection
+-> we can't Add/Remove elements
+
+Usage:
+-> when the size is known upfront, otherwise don't use them
+
+Questions:
+1. What is a jagged array?
+-> is an array of arrays
+
+2. What are the advantages of using arrays? 
+-> they are fast
+-> basic and easy to use
+
+3. What are the disadvantages of using arrays?
+-> are fix size, so we can't add/remove along the way
+-> can be a waste of memory if we allocate to much memory, just for some occasional situation
+
+4. How to resize an array?
+-> you can't

@@ -58,6 +58,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_checked keyword", "22_ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_double vs decimal", "23_double vs decimal\23_double vs decimal.csproj", "{B05AABCE-D669-4442-B6E6-0F372CFF8619}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-What is an Array", "24-What is an Array\24-What is an Array.csproj", "{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -164,6 +166,10 @@ Global
 		{B05AABCE-D669-4442-B6E6-0F372CFF8619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B05AABCE-D669-4442-B6E6-0F372CFF8619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B05AABCE-D669-4442-B6E6-0F372CFF8619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

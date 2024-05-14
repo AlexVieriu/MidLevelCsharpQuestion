@@ -44,3 +44,7 @@ like for example adding 2 large integers can give a negative number?
 23.1. What is the difference between double and float?
 23.2. What is the NaN?
 23.3. What numeric type should be use to represent money?
+24.1. What is a jagged array?
+24.2. What are the advantages of using arrays? 
+24.3. What are the disadvantages of using arrays?
+24.4. How to resize an array?
