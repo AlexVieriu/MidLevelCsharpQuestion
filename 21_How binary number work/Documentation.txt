@@ -1,0 +1,22 @@
+﻿How does the binary number system work?
+-> used to represent numbers using digits: 0 and 1 (ex: 13 is 1101 in the binary number system)
+-> every piece of data is stored as bits in the computer's memory
+-> bit is the smallest unit of information, can only have 2 values(0 and 1)
+
+In Base 10
+831 = 8*10^2 + 3*10^1 + 1*10^0
+
+In Base 2
+1101 = 1*2^3 + 1*2^2 + 0*2^1 + 1*2^0 = 8+4+0+1 = 13 (in Base 10)
+
+831+461=1292
+1101+1111=11100
+
+Questions:
+1. What is the decimal representation of number 101?
+-> 101 = 5
+
+2. Why arithmetic operations in programming can give unexpected results, 
+like for example adding 2 large integers can give a negative number?
+-> because a bit is reserved for the sign, and there are limited number of bits 
+are reserved from each types(int is 32 bits)

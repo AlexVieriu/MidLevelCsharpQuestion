@@ -46,9 +46,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_GetType vs typeof", "16_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_What is reflexion", "17_What is reflexion\17_What is reflexion.csproj", "{17E223CC-1EA7-42DA-9F38-38F3CDE5B079}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_What are attributes", "18_What are attributes\18_What are attributes.csproj", "{FB737ACB-D3AA-4252-AE36-A060789E827C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_What are attributes", "18_What are attributes\18_What are attributes.csproj", "{FB737ACB-D3AA-4252-AE36-A060789E827C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_What is serialization", "19_What is serialization\19_What is serialization.csproj", "{859E692C-38C4-4A59-BE0E-E3F43DCD43CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_What is serialization", "19_What is serialization\19_What is serialization.csproj", "{859E692C-38C4-4A59-BE0E-E3F43DCD43CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_What is pattern matching", "20_What is pattern matching\20_What is pattern matching.csproj", "{7EF830DB-ABC1-441F-B809-139CB2665452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_How binary number work", "21_How binary number work\21_How binary number work.csproj", "{0159518F-10B6-49B6-8CE3-03E0C68755CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -140,6 +144,14 @@ Global
 		{859E692C-38C4-4A59-BE0E-E3F43DCD43CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{859E692C-38C4-4A59-BE0E-E3F43DCD43CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{859E692C-38C4-4A59-BE0E-E3F43DCD43CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF830DB-ABC1-441F-B809-139CB2665452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF830DB-ABC1-441F-B809-139CB2665452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF830DB-ABC1-441F-B809-139CB2665452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF830DB-ABC1-441F-B809-139CB2665452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0159518F-10B6-49B6-8CE3-03E0C68755CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0159518F-10B6-49B6-8CE3-03E0C68755CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0159518F-10B6-49B6-8CE3-03E0C68755CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0159518F-10B6-49B6-8CE3-03E0C68755CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
