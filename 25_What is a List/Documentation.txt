@@ -1,0 +1,22 @@
+﻿What is a List?
+-> List<T> is a strongly-typed, generic collection of objects
+-> are dynamic, we can Add/Remove elements from them 
+-> a List is a "fancy" rapper of an Array
+-> holds its data in an array. which can't be resized
+-> when resizing is needed, a new, larger array is created and the old one data is copied into it, and the old array is deleted
+-> growing a List can be performance costly
+-> we can declare the underlying array's size upfront if we know it
+-> operations not supported by arrays that will involve data rearrangement, may have a big performance impact, 
+especially on Large List
+
+To see the implementation of a List: 
+-> right click on the List -> Go to Implementation(CTRL+F12)
+
+Questions:
+1. Why is it a good idea to set the Capacity of the List in the constructor 
+if we know the expected count of elements upfront?
+-> so we can improve the performance
+
+2. What is the complexity of the .Insert method of a List class?
+-> it need to rearrange all of the elements in an Array
+-> has a high performance cost

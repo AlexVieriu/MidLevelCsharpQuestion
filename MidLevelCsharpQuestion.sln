@@ -56,9 +56,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_How binary number work",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_checked keyword", "22_checked keyword\22_checked keyword.csproj", "{3E1A6B0B-480D-4EC9-A8D3-91A4F354DACA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_double vs decimal", "23_double vs decimal\23_double vs decimal.csproj", "{B05AABCE-D669-4442-B6E6-0F372CFF8619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23_double vs decimal", "23_double vs decimal\23_double vs decimal.csproj", "{B05AABCE-D669-4442-B6E6-0F372CFF8619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-What is an Array", "24-What is an Array\24-What is an Array.csproj", "{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24-What is an Array", "24-What is an Array\24-What is an Array.csproj", "{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_What is a List", "25_What is a List\25_What is a List.csproj", "{F4E88C2D-4050-4000-86DC-590C27BD2888}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -170,6 +172,10 @@ Global
 		{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C1D5653-1364-41BF-AA21-1C3128DD3D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E88C2D-4050-4000-86DC-590C27BD2888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E88C2D-4050-4000-86DC-590C27BD2888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E88C2D-4050-4000-86DC-590C27BD2888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E88C2D-4050-4000-86DC-590C27BD2888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
