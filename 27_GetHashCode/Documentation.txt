@@ -1,0 +1,32 @@
+﻿What is the purpose of the GetHashCode method?
+-> belong to the System.Object type (we can call it on any obj in C#)
+-> is a hash function implementation for an object
+-> is a one-way cryptographic algorithm that maps an input 
+of any size to a unique output of a fixed length of bits
+
+What is the use of HashCode?
+-> work as keys in hashed collections, like Dictionaries, HashSets or HashTables
+
+Hash functions:
+-> two different objects ideally should have different hash codes, but duplicates may happen
+-> if we have plenty different objects, there should be as few duplicates as possible 
+-> two objects that are considered the same, should have the same hash code\
+
+We should override the GetHashCode method when the type is going to be used 
+as the key in hashed collections, and the default implementation does not work for us.
+
+For reference types, the default GetHashCode method bases on reference, 
+so two objects that have the same values will have different hash codes
+
+For value types, the default GetHashCode method value-based, 
+so it uses the fields and properties stored in the object... but uses reflection under the hood, 
+which makes it relatively slow
+
+When overriding the HashCode() method, it is important to override the Equals() method
+
+Questions:
+1. Can two objects of the same type, different by value, have the same hash codes?
+-> Yes; HashCode duplication(HashCode conflicts) can happen 
+
+2. Why is it a good idea to provide a custom implementation of the GetHashCode method for structs?
+-> because the default implementation is based on reflection and it's slow
