@@ -1,0 +1,20 @@
+﻿What is an ArrayList?
+-> it's an dynamic collection, that can hold any type of items
+-> treats everything it holds as an instances of System.Object type
+
+Boxing:
+-> is a process of "wrapping" a value type in an object
+-> it result in storing this value on the HEAP instead of the STACK, and creating a reference to it
+
+Ex:
+object obj = (object)5;
+
+Questions:
+1. What is the difference between an array, a List and an ArrayList?
+array:	-> is a basic collection of fix size that can store any declared type of elements
+List :	-> is a dynamic collection, the size can change overtime
+		-> it's generic and can store any declared type of elements
+ArrayList: -> dynamic collection that can store value types of elements at the same time 		
+
+2. What to use ArrayList over List<T>?
+-> never 

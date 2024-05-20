@@ -62,6 +62,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24-What is an Array", "24-W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_What is a List", "25_What is a List\25_What is a List.csproj", "{F4E88C2D-4050-4000-86DC-590C27BD2888}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_ArrayList", "26_ArrayList\26_ArrayList.csproj", "{60963DD1-E921-43BD-BF31-4E6768957BBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -176,6 +178,10 @@ Global
 		{F4E88C2D-4050-4000-86DC-590C27BD2888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4E88C2D-4050-4000-86DC-590C27BD2888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4E88C2D-4050-4000-86DC-590C27BD2888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60963DD1-E921-43BD-BF31-4E6768957BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60963DD1-E921-43BD-BF31-4E6768957BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60963DD1-E921-43BD-BF31-4E6768957BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60963DD1-E921-43BD-BF31-4E6768957BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
