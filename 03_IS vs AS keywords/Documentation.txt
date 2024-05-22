@@ -10,6 +10,10 @@ Regular casting vs "as" keyword
 -> regular casting throws and exception
 -> "as" returns null
 
+ChatGpt:
+"Give me and example with "Is" and "As" keyword in C# with real world example in Payments. 
+The example need to be with CreditCard(Visa, Mastercard) , Debit Card(Visa Debit, Mastercard Debit), PayPal, Digital Wallets(Google Pay), Bank Transfer"
+
 Questions:
 1. What is the difference between regular cast and casting with "as" keyword?
 -> regular cast will throw an runtime error when it fail casting 
@@ -20,6 +24,3 @@ Questions:
 -> null can only be assign to Nullable types
 
 
-ChatGpt:
-"Give me and example with "Is" and "As" keyword in C# with real world example in Payments. 
-The example need to be with CreditCard(Visa, Mastercard) , Debit Card(Visa Debit, Mastercard Debit), PayPal, Digital Wallets(Google Pay), Bank Transfer"

@@ -1,0 +1,30 @@
+﻿What is a Dictionary?
+-> it's a data structure representing a collection of key value pairs
+-> each key in the Dictionary must be unique
+
+When a key is added to the Dictionary, it calculates its hashcode using the GetHashCode method.
+It uses this hashcode to properly place the value for the given key 
+in the hash table that is the underlying data structure of dictionary.
+
+Dictionary vs Hashtable
+
+Dictionary:
+-> generic collection
+-> no thread-safe
+-> specific data declaration -> no boxing/unboxing -> good performance
+
+Hashtable:
+-> non-generic collection
+-> thread-safe
+-> has boxing-unboxing (poor performance)
+
+Questions:
+1. What is a hashtable?
+-> is a data structure that stores values in an Array of collections
+-> the index of the array is used to calculate the hash code
+
+2. Will the Dictionary works correctly if we have hash code conflict for two of its key?
+-> Yes, because the Dictionary is using the Equals() method
+
+3. Why should we override the Equals method when we override the GetHashCode method?
+-> Equals method is needed for the Dictionary to distinguish two keys i case of the hash code conflict

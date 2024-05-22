@@ -1,7 +1,7 @@
 ﻿Garbage Collector responsibilities:
 -> identifying objects to that are no longer needed 
 -> remove those objects from memory
--> defragment the memory 
+-> defragmenting the memory 
 
 Optimization:
 -> if some objects survives a couple of cycles of the Garbage Collector's work, it's most likely long-lived
