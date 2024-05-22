@@ -50,3 +50,12 @@ like for example adding 2 large integers can give a negative number?
 24.4. How to resize an array?
 25.1. Why is it a good idea to set the Capacity of the List in the constructor 
 25.2. What is the complexity of the .Insert method of a List class?
+26.1. What is the difference between an array, a List and an ArrayList?
+26.2. What to use ArrayList over List<T>?
+27.1. Can two objects of the same type, different by value, have the same hash codes?
+27.2. Why is it a good idea to provide a custom implementation of the GetHashCode method for structs?
+28.1. What is a hashtable?
+28.2. Will the Dictionary works correctly if we have hash code conflict for two of its key?
+28.3. Why should we override the Equals method when we override the GetHashCode method?
+29.1. It is possible to have a class with an indexer accepting a string as a parameter?
+29.2. Can we have more than one indexer defined in a class?

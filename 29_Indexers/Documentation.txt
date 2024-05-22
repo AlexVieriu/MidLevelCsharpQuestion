@@ -1,0 +1,17 @@
+﻿What are indexers?
+-> allow instances of a type to be indexed just like arrays
+-> most often used with types representing collections(can be added to any type)
+
+Find the definition of index:
+-> right click on List -> go to implementation -> search for "index"
+
+I can add as many indexer as i want.
+
+Questions:
+1. It is possible to have a class with an indexer accepting a string as a parameter?
+-> Yes 
+public T this[string index]
+
+2. Can we have more than one indexer defined in a class?
+-> Yes 
+public T this[int index1, int index2]

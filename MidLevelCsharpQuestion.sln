@@ -64,7 +64,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_What is a List", "25_Wha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_ArrayList", "26_ArrayList\26_ArrayList.csproj", "{60963DD1-E921-43BD-BF31-4E6768957BBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_GetHashCode", "27_GetHashCode\27_GetHashCode.csproj", "{16A30F05-3469-47AB-86AF-613483977B0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_GetHashCode", "27_GetHashCode\27_GetHashCode.csproj", "{16A30F05-3469-47AB-86AF-613483977B0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_Dictionary", "28_Dictionary\28_Dictionary.csproj", "{8C7775B3-E10A-460A-AADE-F00D7F9A3E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_Indexers", "29_Indexers\29_Indexers.csproj", "{45522C03-B226-4AD6-AEA8-E3A336C8B18D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -188,6 +192,14 @@ Global
 		{16A30F05-3469-47AB-86AF-613483977B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A30F05-3469-47AB-86AF-613483977B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A30F05-3469-47AB-86AF-613483977B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7775B3-E10A-460A-AADE-F00D7F9A3E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7775B3-E10A-460A-AADE-F00D7F9A3E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7775B3-E10A-460A-AADE-F00D7F9A3E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7775B3-E10A-460A-AADE-F00D7F9A3E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45522C03-B226-4AD6-AEA8-E3A336C8B18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45522C03-B226-4AD6-AEA8-E3A336C8B18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45522C03-B226-4AD6-AEA8-E3A336C8B18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45522C03-B226-4AD6-AEA8-E3A336C8B18D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
