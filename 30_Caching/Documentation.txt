@@ -1,0 +1,22 @@
+﻿What is caching?
+-> a mechanism that allows storing some data in memory, so next time it is needed, it can be served faster
+
+(see in the examples how it's used)
+-> use Microsoft.Extensions.Caching.Memory
+-> add increment value every time the cache is used to see if it's worth it
+
+When to use caching?
+-> used to store data from external data sources like databases or API calls
+-> for data calculated locally, like performance costly mathematical or graphical calculations results
+-> underlying data can change, making the cached data not up to date;
+-> when underlying data doesn't change often
+
+You need to have some mechanism that remove the data after a period of time.
+
+Questions:
+1. What are the benefits of using cashing?
+-> performance boots, if we repeatedly receive data identify with some Key
+
+2. What are the downside of using caching?
+-> occupy the application memory
+-> it will grow over time and some mechanism need to be used to avoid OutOfMemoryException
