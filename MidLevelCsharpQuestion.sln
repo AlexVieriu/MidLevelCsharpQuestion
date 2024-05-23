@@ -68,9 +68,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_GetHashCode", "27_GetHas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_Dictionary", "28_Dictionary\28_Dictionary.csproj", "{8C7775B3-E10A-460A-AADE-F00D7F9A3E1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_Indexers", "29_Indexers\29_Indexers.csproj", "{45522C03-B226-4AD6-AEA8-E3A336C8B18D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_Indexers", "29_Indexers\29_Indexers.csproj", "{45522C03-B226-4AD6-AEA8-E3A336C8B18D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_Caching", "30_Caching\30_Caching.csproj", "{B5B39D30-3D29-4365-8DBE-8D2956EF5781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_Caching", "30_Caching\30_Caching.csproj", "{B5B39D30-3D29-4365-8DBE-8D2956EF5781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_Immutable Type", "31_Immutable Type\31_Immutable Type.csproj", "{AC3D918E-166A-42CF-8775-12FB35B64BFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -206,6 +208,10 @@ Global
 		{B5B39D30-3D29-4365-8DBE-8D2956EF5781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5B39D30-3D29-4365-8DBE-8D2956EF5781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5B39D30-3D29-4365-8DBE-8D2956EF5781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3D918E-166A-42CF-8775-12FB35B64BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3D918E-166A-42CF-8775-12FB35B64BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3D918E-166A-42CF-8775-12FB35B64BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3D918E-166A-42CF-8775-12FB35B64BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

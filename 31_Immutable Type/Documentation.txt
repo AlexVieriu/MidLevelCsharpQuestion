@@ -1,0 +1,38 @@
+﻿What are immutable types and what's their purpose?
+-> once a object of this type is created none of its fields of properties can be updated
+
+Benefits:
+-> simple and clear code
+-> write pure functions         (example 2)
+-> easier multi-threading
+-> keeping objects valid        (example 3)
+    -> for example a person ID, instead of putting a lot of conditions to check the ID to have the right value, 
+    we set the ID once(we make it immutable) and then make it readonly so will not change
+    -> this validation are also code duplications
+-> avoiding identity mutation   (example 4)
+    -> if and object is meant to be a key in the Dictionary, it should be immutable
+    or those fields and properties that are used in the GetHashCode method
+-> easier testing
+
+Disadvantages:
+-> every update means creating a new object
+
+Non-destructive mutation:
+-> an operation of creating a new object based of another immutable object 
+
+ChatGPT: 
+-> give me some real work example where we can use immutable functions
+
+Questions:
+1. What are pure functions?
+-> functions that the result depend only the input parameter
+
+2. What are the benefits of using immutable types?(5 examples)
+-> simple and clear code
+-> write pure functions
+-> keeping objects valid 
+-> avoiding identity mutation
+-> easier testing
+
+3. What is the non-destructive mutation?
+-> an operation of creating a new object based of another immutable object  
