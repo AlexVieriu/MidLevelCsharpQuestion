@@ -70,3 +70,5 @@ like for example adding 2 large integers can give a negative number?
 33.2. What is the size of the stack in megabits?
 33.3. What is the underling data structure for string?
 34.1. What does it mean that the strings are immutable?
+35.1. What is the purpose of the operator keyword?
+35.2. What is the difference between explicit and implicit conversion?

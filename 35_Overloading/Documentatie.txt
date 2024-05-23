@@ -1,0 +1,39 @@
+﻿What is the operator overloading?
+-> allows us to define the behavior of operators when used on our own types
+
+Overloadable:
++
+-
+/
+*
+!
+%
+... and more
+
+Non-overloadable:
+=>
+.
+new
+&&
+||
+^
+... and more
+
+When to use the:
+-> implicit operator: when it want change the precision
+-> explicit operator: when the precision doesn't matter
+
+
+Questions:
+1. What is the purpose of the operator keyword?
+-> when overloading an operator for a type
+
+2. What is the difference between explicit and implicit conversion?
+
+-> explicit: 
+	double a=5.4d;
+	int b=(int)a; // out 5
+
+-> implicit:
+	double a=5.4d;
+	int b=a; // throw a runtime error

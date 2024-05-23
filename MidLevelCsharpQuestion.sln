@@ -74,11 +74,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_Caching", "30_Caching\30
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_Immutable Type", "31_Immutable Type\31_Immutable Type.csproj", "{AC3D918E-166A-42CF-8775-12FB35B64BFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32_Recods and Records struct", "32_Recods and Records struct\32_Recods and Records struct.csproj", "{B3FF3E7B-5F25-4C51-930F-4379E59DC348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32_Recods and Records struct", "32_Recods and Records struct\32_Recods and Records struct.csproj", "{B3FF3E7B-5F25-4C51-930F-4379E59DC348}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_string behavior", "33_string behavior\33_string behavior.csproj", "{6895B7BE-F680-4287-AFB2-C95B11B86E23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33_string behavior", "33_string behavior\33_string behavior.csproj", "{6895B7BE-F680-4287-AFB2-C95B11B86E23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_StringBuilder", "34_StringBuilder\34_StringBuilder.csproj", "{BF093FFF-E7C3-47B4-A6D9-19FC09FC18CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34_StringBuilder", "34_StringBuilder\34_StringBuilder.csproj", "{BF093FFF-E7C3-47B4-A6D9-19FC09FC18CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_Overloading", "35_Overloading\35_Overloading.csproj", "{CE61928D-2E24-49BA-8465-55685874B9B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -230,6 +232,10 @@ Global
 		{BF093FFF-E7C3-47B4-A6D9-19FC09FC18CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF093FFF-E7C3-47B4-A6D9-19FC09FC18CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF093FFF-E7C3-47B4-A6D9-19FC09FC18CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE61928D-2E24-49BA-8465-55685874B9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE61928D-2E24-49BA-8465-55685874B9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE61928D-2E24-49BA-8465-55685874B9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE61928D-2E24-49BA-8465-55685874B9B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
