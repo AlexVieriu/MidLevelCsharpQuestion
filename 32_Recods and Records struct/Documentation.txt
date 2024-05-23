@@ -1,0 +1,32 @@
+﻿https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/records
+
+Records:
+-> reference types that are base on value-type equality 
+-> they support inheritance 
+-> the compiler generates some basic methods for them
+
+What are the methods that the compiler is generating for records?
+-> override for the Equals(object) method
+-> virtual Equals(ThisRecod) method implementing the IEquatable<ThisRecord> interface
+-> override for the GetHashCode method, combining properties of the record
+-> overloads for == and != operators
+-> override of the ToString() printing record's properties and their values
+
+Types of Records:
+-> positional records		(without body)
+	-> creates a primary constructor with the number of parameter declared in the struct
+	-> creates read-only public properties
+	-> creates a Deconstruct method that allow deconstruction
+-> non-positional records	(with body)
+
+Record structs:
+-> value types
+-> positional record structs, unlike positional records, are read-write by default 
+-> can be declared readonly(makes them immutable)
+
+Questions:
+1. What is the purpose of the "with" keyword?
+-> clone and existing record 
+
+2. What are positional records?
+-> are records without a body
