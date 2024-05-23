@@ -1,0 +1,31 @@
+﻿Why does string behave like a value type even though it is a reference type?
+-> string under the hood is an array of chars
+	-> if we want to add and element to an array, we must declare a new bigger array
+	-> that's what happens when we modify a string
+-> strings in C# are immutable; every "modification" is actually creating a new string
+
+
+Strings
+-> are reference types with value types semantics
+-> developers tend to think of strings in a similar way as of value types
+
+Why strings can be value type?
+-> because of the performance
+-> strings can be really big and can't fit on the stack
+
+Strings interning
+-> is a mechanism in C# that is used to store only one instance of a string value in memory, 
+regardless of how many times that string is created during the execution of a program
+
+Because the modifying string is performance costly use StringBuilder
+
+Questions:
+1. What is interning of strings?
+-> if multiple string are equal, the runtime use a single string saving memory
+
+2. What is the size of the stack in megabits?
+-> 1Mb for 32bit processes
+-> 4Mb for 64bit processes
+
+3. What is the underling data structure for string?
+-> char[]

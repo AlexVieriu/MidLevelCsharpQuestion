@@ -64,3 +64,8 @@ like for example adding 2 large integers can give a negative number?
 31.1. What are pure functions?
 31.2. What are the benefits of using immutable types?(5 examples)
 31.3. What is the non-destructive mutation?
+32.1. What is the purpose of the "with" keyword?
+32.2. What are positional records?
+33.1. What is interning of strings?
+33.2. What is the size of the stack in megabits?
+33.3. What is the underling data structure for string?
