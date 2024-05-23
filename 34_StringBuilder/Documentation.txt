@@ -1,0 +1,17 @@
+﻿https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-9.0
+https://learn.microsoft.com/en-us/dotnet/fundamentals/runtime-libraries/system-text-stringbuilder
+
+String "modification":
+-> new string must be created and memory must be allocated for it
+-> the reference of the old string is now pointing to the new string
+-> Garbage Collector will remove the old string from memory
+
+Immutable vs readonly?
+-> the terms "immutable" and "readonly" have different meanings and are used in different contexts
+-> readonly can be applied to properties and fields
+-> immutable object is and object that has all the properties and fields readonly
+
+Questions:
+1. What does it mean that the strings are immutable?
+-> once created can't be modified
+ 
