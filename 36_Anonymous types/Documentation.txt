@@ -1,0 +1,24 @@
+﻿What are anonymous types?
+-> are types without name
+-> provide convenient way for encapsulating a set of readonly properties 
+into a single object without explicitly define a type first
+-> most often used to define small, temporary types that we don't intend to use anywhere else
+
+Anonymous types:
+-> contain only read only properties
+-> can't contain methods, fields, events etc.
+-> if the properties are not given names, they are inferred from context; if not possible, the code will not compile
+-> are classes derived from System.Object type
+-> they override the Equals and GeteHashCode methods to support value-based quality
+-> support non-destructive mutation with the "with" keyword
+
+Questions:
+1. Can we modify the value of an anonymous type property?
+-> no, because they are readonly
+
+2. When should/shouldn't use anonymous types?
+-> use when is simple and local, and not be used anywhere else
+-> used in LINQ
+
+3. Are anonymous types value or reference types?
+-> reference types

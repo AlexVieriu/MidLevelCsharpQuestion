@@ -72,3 +72,6 @@ like for example adding 2 large integers can give a negative number?
 34.1. What does it mean that the strings are immutable?
 35.1. What is the purpose of the operator keyword?
 35.2. What is the difference between explicit and implicit conversion?
+36.1. Can we modify the value of an anonymous type property?
+36.2. When should/shouldn't use anonymous types?
+36.3. Are anonymous types value or reference types?
