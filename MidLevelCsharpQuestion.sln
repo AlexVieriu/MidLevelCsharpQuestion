@@ -82,9 +82,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34_StringBuilder", "34_Stri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35_Overloading", "35_Overloading\35_Overloading.csproj", "{CE61928D-2E24-49BA-8465-55685874B9B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_Anonymous types", "36_Anonymous types\36_Anonymous types.csproj", "{76BFD920-113B-45B2-BB88-B474870F40D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36_Anonymous types", "36_Anonymous types\36_Anonymous types.csproj", "{76BFD920-113B-45B2-BB88-B474870F40D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_Cohesion", "37_Cohesion\37_Cohesion.csproj", "{31132B0D-EAFC-4385-9DDC-D4325E8372B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "37_Cohesion", "37_Cohesion\37_Cohesion.csproj", "{31132B0D-EAFC-4385-9DDC-D4325E8372B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_Coupling", "38_Coupling\38_Coupling.csproj", "{DA16D18F-7F4C-4F9C-A6B7-3A9A14284E0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -248,6 +250,10 @@ Global
 		{31132B0D-EAFC-4385-9DDC-D4325E8372B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31132B0D-EAFC-4385-9DDC-D4325E8372B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31132B0D-EAFC-4385-9DDC-D4325E8372B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA16D18F-7F4C-4F9C-A6B7-3A9A14284E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA16D18F-7F4C-4F9C-A6B7-3A9A14284E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA16D18F-7F4C-4F9C-A6B7-3A9A14284E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA16D18F-7F4C-4F9C-A6B7-3A9A14284E0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,20 @@
+﻿What is coupling?
+-> it's the degree to which one module depends on another module
+
+Strong Coupling:
+-> one class is depending on another 
+
+Loose coupling:
+-> classes are independent
+
+Recognizing high coupling:
+-> one type is using other type directly without having any abstraction in between
+-> a small change in the class leads to a cascading change in the project
+-> classes are not independent; we need to perform a lot of operations on other classes to make some class work
+
+Questions:
+1. How you can detect a strongly couple types?
+-> if a change in a class leads to a cascading changing in a lot of classes
+
+2. Which of the SOLID principles allow us to reduce coupling?
+-> Inversion of Control

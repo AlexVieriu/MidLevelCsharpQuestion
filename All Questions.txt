@@ -76,3 +76,5 @@ like for example adding 2 large integers can give a negative number?
 36.2. When should/shouldn't use anonymous types?
 36.3. Are anonymous types value or reference types?
 37.1. Is following the Single Responsibility Principle and keep high cohesion the same thing?
+38.1. How you can detect a strongly couple type classes?
+38.2. Which of the SOLID principles allow us to reduce coupling?
