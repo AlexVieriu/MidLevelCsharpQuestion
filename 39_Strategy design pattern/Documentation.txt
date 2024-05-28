@@ -1,0 +1,8 @@
+﻿What is strategy design pattern?
+-> a pattern that allows us to define a family of algorithms that perform some tasks
+-> the concrete strategy can be chosen at runtime
+
+Questions:
+1. What are the benefits of using the Strategy Design Pattern?
+-> reduce code duplication
+-> makes the code cleaner
