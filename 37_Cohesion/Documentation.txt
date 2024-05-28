@@ -1,0 +1,38 @@
+﻿What is cohesion?
+-> is the degree to which elements of a module or a class belong together
+-> measures how strong the relationship is between members of this class or module
+-> closer related the members of a class are, the better 
+
+Are high cohesion and Single Responsibility Principle are the same things?
+-> no, but it's common that highly cohesive class meets the SRP and vice versa
+
+High cohesion:
+-> the data and methods that are belong together are kept together
+-> slitting a class can make the class less cohesive
+
+SRP:
+-> the class have a single responsibility;
+-> a single reason to change
+-> slitting a class will not make the class to stop meeting the SRP
+
+High cohesion:
+-> most of the all members use the same private data and they reuse member methods
+-> the functionalities of the class have much in common
+-> the class is hard to split
+-> the class is easy to name and the name is accurate 
+
+Low cohesion:
+-> some private members are used by a group of members only;
+-> the functionality of a class are unrelated
+-> the class is easy to split
+-> the class is hard to name or its name lies about what it does
+
+Benefits:
+-> classes are easier to understand and use
+-> changes are easier to introduce as fewer classes are affected
+-> testing is easier
+-> classes are reusable
+
+Questions:
+1. Is following the Single Responsibility Principle and keep high cohesion the same thing?
+-> no, but they work good together

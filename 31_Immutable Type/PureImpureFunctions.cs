@@ -1,7 +1,7 @@
 ﻿// Example 2 - Pure/Impure functions
 class PureImpureFunctions
 {
-    // Pure
+    // Pure function
     int Sum(IEnumerable<int> numbers)
     {
         var sum = 0;
@@ -12,7 +12,7 @@ class PureImpureFunctions
         return sum;
     }
 
-    // Impure - there are 2 separate functions that to the sum(Add and SumSoFar)
+    // Impure function - there are 2 separate functions that to the sum(Add and SumSoFar)
     private int _sum = 0;
     public int SumSoFar(int number)
     {
