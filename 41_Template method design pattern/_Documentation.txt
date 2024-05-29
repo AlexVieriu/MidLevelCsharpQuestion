@@ -1,0 +1,19 @@
+﻿What is Template Method design pattern?
+-> defines the skeleton of an algorithm in the base class
+-> specific steps of this algorithm are implemented in derived class
+
+Inheritance vs Composition?
+
+Inheritance: 
+-> is a mechanism where a new class, called a derived class, inherits the properties 
+and behaviors (methods) of an existing class, called a base class.
+-> the derived class can add new properties and methods or override existing ones.
+
+Composition:
+-> a design principle where a class is composed of one or more objects from other classes, rather than inheriting from them
+-> allows you to build complex types by combining objects, giving more flexibility as behavior can be changed at runtime
+
+Questions:
+1. What is the difference between the Template Method design pattern and the Strategy design pattern?
+-> Template method: selected at compile time, uses inheritance
+-> Strategy: selected at runtime, uses composition
