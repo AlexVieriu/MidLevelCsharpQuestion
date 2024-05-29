@@ -90,6 +90,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_Coupling", "38_Coupling\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_Strategy design pattern", "39_Strategy design pattern\39_Strategy design pattern.csproj", "{4F2FBB52-2517-4256-9823-314F69EF1D60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40_Dependency Injection design pattern", "40_Dependency Injection design pattern\40_Dependency Injection design pattern.csproj", "{50C51381-8319-4B1A-BFE6-ECA9DD3E2D11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -260,6 +262,10 @@ Global
 		{4F2FBB52-2517-4256-9823-314F69EF1D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F2FBB52-2517-4256-9823-314F69EF1D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F2FBB52-2517-4256-9823-314F69EF1D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C51381-8319-4B1A-BFE6-ECA9DD3E2D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C51381-8319-4B1A-BFE6-ECA9DD3E2D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C51381-8319-4B1A-BFE6-ECA9DD3E2D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C51381-8319-4B1A-BFE6-ECA9DD3E2D11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

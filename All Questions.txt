@@ -79,3 +79,5 @@ like for example adding 2 large integers can give a negative number?
 38.1. How you can detect a strongly couple type classes?
 38.2. Which of the SOLID principles allow us to reduce coupling?
 39.1. What are the benefits of using the Strategy Design Pattern?
+40.1. What are Dependency Injection frameworks?
+40.2. What are the benefits of using Dependency Injection?

@@ -1,0 +1,15 @@
+﻿Dependency Injections:
+-> providing the objects that some class needs from the outside, instead of having it construct them itself
+
+Advantages:
+-> loosely couple
+-> flexibility
+
+Questions:
+1. What are Dependency Injection frameworks?
+-> mechanisms that automatically create dependencies and inject them into objects that need them
+
+2. What are the benefits of using Dependency Injection?
+-> decouples a class from his dependencies
+-> the class doesn't make the decision what concrete type it will use; 
+it only declares on the constructor what interfaces it will need 
