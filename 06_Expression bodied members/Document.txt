@@ -4,10 +4,13 @@
 
 
 Question:
-1. What is and expression?
+1. What is an expression?
 -> is a piece of code that evaluates to some value
 -> Ex: return 1+2
 
 2. What is a statement?
--> is a piece of code that don't evaluates to some value
--> Ex: Console.WriteLine();
+-> is a basic unit of execution of a program
+-> is an action that program take
+
+
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/statements

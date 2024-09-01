@@ -1,28 +1,37 @@
 ﻿using System.Diagnostics;
+using static System.Console;
 
 // Example 1
-Console.WriteLine("- - - Example 1 - - -");
-int twoBillions = 2000000000;
-int result = twoBillions + twoBillions;
-Console.WriteLine("the result is: " + result); // output: -294967296
+uint a = uint.MaxValue;
+
+WriteLine(a + 3); // -2147483646
+
+unchecked
+{
+    WriteLine(a + 3); // -2147483646
+}
+checked
+{
+    WriteLine(a + 3); // Unhandled exception. System.OverflowException
+}
 
 
 // Example 2
-Console.WriteLine();
-Console.WriteLine("- - - Example 2 - - -");
+WriteLine();
+WriteLine("- - - Example 2 - - -");
 const int setSize = 10000000;
 
 var checkResult = MeasureChecked(setSize);
 GC.Collect();
 var uncheckedResult = MeasureUnChecked(setSize);
 
-Console.WriteLine($"Checked: {checkResult} milliseconds");
-Console.WriteLine($"UnChecked: {uncheckedResult} milliseconds");
-Console.WriteLine($"Checked took: {((double)(double)checkResult / (double)uncheckedResult)} % longer");
+WriteLine($"Checked: {checkResult} milliseconds");
+WriteLine($"UnChecked: {uncheckedResult} milliseconds");
+WriteLine($"Checked took: {((double)(double)checkResult / (double)uncheckedResult)} % longer");
 
 // Example 3
-Console.WriteLine();
-Console.WriteLine("- - - Example 3 - - -");
+WriteLine();
+WriteLine("- - - Example 3 - - -");
 SomeMethodWithCheckedScopeInside();
 
 
@@ -90,7 +99,7 @@ void SomeMethodWithCheckedScopeInside()
     }
     catch (OverflowException ex)
     {
-        Console.WriteLine("Exception!");
-    }    
-    Console.WriteLine("Done!"); // only this one is called 
+        WriteLine("Exception!");
+    }
+    WriteLine("Done!"); // only this one is called 
 }

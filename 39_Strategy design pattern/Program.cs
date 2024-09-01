@@ -9,7 +9,7 @@ var searchOptions = FilteringType.BestGames;
 var searchWord = "Red";
 
 // Example 1
-var myClass = new MyClass();
+var myClass = new NO_StrategyDesignPattern();
 IEnumerable<Game> filteredGames1 = myClass.FindBy(searchOptions, searchWord, games);
 
 foreach (var game in filteredGames1)
@@ -30,3 +30,13 @@ foreach (var game in filteredGames2)
 }
 
 Console.ReadKey();
+
+
+record Game(string Title, decimal Price, decimal Rating, DateTime ReleaseDate, bool IsAvailable);
+enum FilteringType
+{
+    ByTitle,
+    BestGames,
+    ByYear,
+    LowerPrice
+}

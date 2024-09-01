@@ -1,0 +1,14 @@
+﻿Decorator design pattern:
+-> adds extra functionality to an existing object, 
+without affecting the behavior of other objects from the same class
+
+Decorator:
+-> allows adding behavior to an object dynamically, without touching its code
+-> allows following the Open-Closed Principle
+-> allows following the Single Responsibility Principle 
+
+Questions: 
+1. What are the benefits using the Decorator design pattern?
+-> add functionality to the objects without touching the original classes
+
+https://github.com/KrystynaSlusarczykLearning/50InterviewQuestionsMid/tree/main/DecoratorPattern

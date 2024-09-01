@@ -1,4 +1,4 @@
-﻿public class MyClass
+﻿public class NO_StrategyDesignPattern
 {
     internal IEnumerable<Game> FindBy(FilteringType searchOptions, string searchWord, IEnumerable<Game> games = null)
     {

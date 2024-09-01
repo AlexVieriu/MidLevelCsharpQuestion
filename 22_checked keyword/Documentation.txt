@@ -21,6 +21,21 @@ In case of potential undesired overflow:
 
 Run benchmarks on your own in this cases.
 
+
+Overflow-Checking Context:
+-> the checked and unchecked statements allow you to control 
+the overflow-checking context for integral-type arithmetic operations
+-> When integer arithmetic overflow occurs (i.e., the result exceeds the range of the data type), 
+the overflow-checking context defines what happens.
+
+Checked Context:
+-> in a checked context, if overflow occurs, a System.OverflowException is thrown
+
+Unchecked Context:
+-> in an unchecked context, the operation result is truncated by discarding any high-order 
+bits that don't fit in the destination type
+
+
 Questions:
 1. What is the purpose of the "unchecked" keyword?
 -> this keyword defines a scope in which checking of arithmetic overflow is disabled

@@ -92,7 +92,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "39_Strategy design pattern"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "40_Dependency Injection design pattern", "40_Dependency Injection design pattern\40_Dependency Injection design pattern.csproj", "{50C51381-8319-4B1A-BFE6-ECA9DD3E2D11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41_Template method design pattern", "41_Template method design pattern\41_Template method design pattern.csproj", "{7CC93780-5B3F-4FCD-B6DE-9BFDAF3821E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41_Template method design pattern", "41_Template method design pattern\41_Template method design pattern.csproj", "{7CC93780-5B3F-4FCD-B6DE-9BFDAF3821E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42_1_Decorator design pattern", "42_Decorator design pattern\42_1_Decorator design pattern.csproj", "{24C9AD0E-3604-4737-A133-0889A338AE9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42_2_Decorator design pattern", "42_2_Decorator design pattern\42_2_Decorator design pattern.csproj", "{BB662347-F71C-4601-B10F-4B5792C81911}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -272,6 +276,14 @@ Global
 		{7CC93780-5B3F-4FCD-B6DE-9BFDAF3821E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CC93780-5B3F-4FCD-B6DE-9BFDAF3821E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CC93780-5B3F-4FCD-B6DE-9BFDAF3821E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C9AD0E-3604-4737-A133-0889A338AE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C9AD0E-3604-4737-A133-0889A338AE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C9AD0E-3604-4737-A133-0889A338AE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C9AD0E-3604-4737-A133-0889A338AE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB662347-F71C-4601-B10F-4B5792C81911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB662347-F71C-4601-B10F-4B5792C81911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB662347-F71C-4601-B10F-4B5792C81911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB662347-F71C-4601-B10F-4B5792C81911}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
