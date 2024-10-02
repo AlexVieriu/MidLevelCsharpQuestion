@@ -1,6 +1,6 @@
 ﻿namespace _42_2_Decorator_design_pattern;
 
-public abstract class Coffee_WithDecorator : ICoffee
+public class Coffee_WithDecorator : ICoffee
 {
     // We declare it protected so we can't access it from outside. See the last code in the Program.cs for example
     protected ICoffee _coffee; 
