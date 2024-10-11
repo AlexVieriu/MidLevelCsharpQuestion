@@ -1,27 +1,23 @@
-﻿public class BitCoinPriceReader
-{
-    private decimal _priceReader;
+﻿// Creating the observers
+var bitcoinPriceReader = new BitCoinPriceReader();
 
-    public void ReadCurrentPrice()
-    {
-        _priceReader = new Random().Next(0, 5000);
-    }
-}
+var emailNotifier = new EmailPriceChangeNotifier(2500);
+bitcoinPriceReader.AttachObserver(emailNotifier);
 
-public class PushPriceChangeNotifier
-{
-    private readonly decimal _notificationThreshold;
+var pushNotifier = new PushPriceChangeNotifier(4000);
+bitcoinPriceReader.AttachObserver(pushNotifier);
 
-    public PushPriceChangeNotifier(decimal notificationThreshold)
-    {
-        _notificationThreshold = notificationThreshold;
-    }
+Console.WriteLine("- - First bitcoin price change - -");
+bitcoinPriceReader.ReadCurrentPrice();
 
-    public void Update(decimal currentBitCoinPrice)
-    {
-        if (currentBitCoinPrice > _notificationThreshold)
-        {
-            Console.WriteLine($"Email sent: {_notificationThreshold} - {currentBitCoinPrice}");
-        }
-    }
-}
+Console.WriteLine();
+
+Console.WriteLine("- - Second bitcoin price change - -");
+bitcoinPriceReader.ReadCurrentPrice();
+Console.WriteLine(
+    );
+// If you want to get read of notifications
+Console.WriteLine("- - - Detaching the email notifications - - -");
+bitcoinPriceReader.DetachObserver(emailNotifier);
+Console.WriteLine("Emails DETACHED");
+bitcoinPriceReader.ReadCurrentPrice();

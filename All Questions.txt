@@ -1,3 +1,6 @@
+Repository link:
+https://github.com/KrystynaSlusarczykLearning/50InterviewQuestionsMid
+
 02.1. It is possible to have a Tuple with more then eight elements?
 03.1. What is the difference between regular cast and casting with "as" keyword?
 03.2. Why can we only use the "as" keyword to cast objects to nullable types?
@@ -81,3 +84,4 @@ like for example adding 2 large integers can give a negative number?
 39.1. What are the benefits of using the Strategy Design Pattern?
 40.1. What are Dependency Injection frameworks?
 40.2. What are the benefits of using Dependency Injection?
+41.1. In the Observer design pattern, what is the Observable and what is the Observer?

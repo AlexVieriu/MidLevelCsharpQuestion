@@ -1,1 +1,11 @@
 ﻿-> allows objects to notify other objects about changes in their state 
+
+Microsoft Observer design pattern:
+https://docs.microsoft.com/en-us/dotnet/standard/events/observer-design-pattern
+
+
+Questions:
+1. In the Observer design pattern, what is the Observable and what is the Observer?
+-> Observable is the object in the List
+-> Observer is the notifier
+
