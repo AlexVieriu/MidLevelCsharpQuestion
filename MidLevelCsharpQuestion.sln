@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "43_Observer design pattern"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "44_Events", "44_Events\44_Events.csproj", "{7F385AC1-7C06-4BFE-96E6-8E72CEFC8987}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45_Inversion of Control", "45_Inversion of Control\45_Inversion of Control.csproj", "{F1B1063C-9127-44F9-94AC-D25123E6CEF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{7F385AC1-7C06-4BFE-96E6-8E72CEFC8987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F385AC1-7C06-4BFE-96E6-8E72CEFC8987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F385AC1-7C06-4BFE-96E6-8E72CEFC8987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B1063C-9127-44F9-94AC-D25123E6CEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B1063C-9127-44F9-94AC-D25123E6CEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B1063C-9127-44F9-94AC-D25123E6CEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B1063C-9127-44F9-94AC-D25123E6CEF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

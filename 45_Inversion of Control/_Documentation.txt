@@ -1,0 +1,17 @@
+﻿Questions:
+1. What is a callback?
+-> is an executable code that gets passed as an argument to some other code
+
+2. What is the difference between a framework and a library?
+Library:
+-> is just a set of functions that we can use
+
+Framework:
+-> embodied some abstract design 
+-> we plug our own classes and methods into it 
+-> has the responsibility to call those classes and methods at proper methods 
+
+Framework relies on Inversion of Control, Libraries don't.
+
+Library: You call the library (you are in control).
+Framework: The framework calls you (it’s in control).
