@@ -84,4 +84,8 @@ like for example adding 2 large integers can give a negative number?
 39.1. What are the benefits of using the Strategy Design Pattern?
 40.1. What are Dependency Injection frameworks?
 40.2. What are the benefits of using Dependency Injection?
-41.1. In the Observer design pattern, what is the Observable and what is the Observer?
+41.1. What is the difference between the Template Method design pattern and the Strategy design pattern?
+42.1. What are the benefits using the Decorator design pattern?
+43.1. In the Observer design pattern, what is the Observable and what is the Observer?
+44.1. What is the difference between an event and a field of the delegate type?
+44.2. Why is a good practice to unsubscribe from events when a subscribed object?

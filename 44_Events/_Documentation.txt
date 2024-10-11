@@ -1,0 +1,11 @@
+﻿-> event is a message send by an object to signal the occurrence of an action 
+-> events are the .NET implementation of the Observer design pattern
+
+Questions:
+1. What is the difference between an event and a field of the delegate type?
+-> a public field of a delegate type can be invoked from anywhere in the code
+-> event can be called only from the class they belong to
+
+2. Why is a good practice to unsubscribe from events when a subscribed object
+is no longer needed?
+-> to prevent memory leak
