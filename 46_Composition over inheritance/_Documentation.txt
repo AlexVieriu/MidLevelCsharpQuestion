@@ -1,0 +1,71 @@
+﻿1. Inheritance
+Inheritance is when a class (derived class or subclass) inherits fields, methods, 
+and properties from another class (base class or superclass). 
+It models an "is-a" relationship. 
+For example, if you have a Car class, a Truck class can inherit from it because a truck is a type of car.
+
+2. Composition
+Composition involves building complex types by combining objects of other types, modeling a "has-a" relationship 
+Rather than inheriting behavior, one class can contain instances of other classes and delegate responsibilities to them 
+This provides greater flexibility, as changes in one class are less likely to affect other classes 
+
+
+Why Use Composition Over Inheritance?
+Flexibility: 
+	-> composition allows you to change parts of the system without affecting other parts 
+	-> if you want to change the behavior of the Engine or Transmission, you can do so without changing the Car class
+
+Loose Coupling:
+	-> composition provides looser coupling compared to inheritance
+	-> the Car class doesn’t depend on a specific parent class, making the system more flexible and maintainable
+
+Avoiding the Fragile Base Class Problem: 
+	-> inheritance can sometimes lead to issues where changes to a base class inadvertently break derived classes
+
+Using inheritance issues:
+-> tight coupling
+-> rigid relation
+-> inheritance limitations
+-> inheritance hierarchy overgrowth
+-> tricky unit testing
+-> inheriting more than needed
+	-> the base class exposes implementation details to the inheritors
+-> problematic storage of objects to the database
+
+
+Questions:
+1. What is the problem using composition only?
+-> Complexity in Design
+-> Overhead
+	-> creating and managing multiple objects can introduce performance overhead
+-> Limited Reusability
+	-> while composition promotes code reuse, it can sometimes limit reusability compared to inheritance
+	-> if you need to reuse a specific behavior across many classes, inheritance might be more straightforward
+-> Indirect Access
+	-> composition provides indirect access to the composed objects, which can sometimes make the code harder to read and maintain
+-> Testing Complexity
+
+
+2. What are forwarding methods?
+-> refers to the process of passing a method call from one method to another
+-> this is often used in scenarios where one class or method delegates the work 
+to another class or method, effectively "forwarding" the call
+
+
+public class A
+{
+    public void MethodA()
+        Console.WriteLine("MethodA called");
+    
+}
+
+public class B
+{
+    private A a = new A();
+    
+    public void MethodB()
+    {
+        // Forwarding to A's MethodA
+        a.MethodA();
+    }
+}

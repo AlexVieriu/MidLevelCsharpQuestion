@@ -89,3 +89,7 @@ like for example adding 2 large integers can give a negative number?
 43.1. In the Observer design pattern, what is the Observable and what is the Observer?
 44.1. What is the difference between an event and a field of the delegate type?
 44.2. Why is a good practice to unsubscribe from events when a subscribed object?
+45.1. What is a callback?
+45.2. What is the difference between a framework and a library?
+46.1. What is the problem using composition only?
+46.2. What are forwarding methods?

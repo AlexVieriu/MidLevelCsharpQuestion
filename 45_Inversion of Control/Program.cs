@@ -28,7 +28,6 @@ public class UserIoc                            // Structured Ioc(Inversion of C
         => _database.Persist(data);
 }
 
-
 public interface IDataBase
 {
     void Persist(string data);
