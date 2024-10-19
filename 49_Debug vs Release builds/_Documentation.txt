@@ -1,0 +1,54 @@
+﻿-> in the Release build, the compiler introduces optimizations(remove unused variables, 
+simpling method calls)
+
+
+Release build optimizations:
+-> in-lining of methods
+	-> replacing a method call with the body of the method itself. If a method is small and 
+	called frequently, this reduces the overhead of function calls
+
+-> dead code elimination
+	-> code that will never be executed is removed entirely
+
+-> constant Folding
+	-> the process of evaluating constant expressions at compile time rather than at runtime
+
+-> loop unrolling
+	-> compiler attempts to reduce the overhead of loop control structures by executing 
+	the loop body multiple times in a single iteration
+	
+-> branch protection and conditional simplification
+	-> uses heuristics or static analysis to predict the most likely path of conditional 
+	branches and may restructure the code to minimize costly branches (like if-else statements).
+
+-> register allocation and stack frame optimization 
+	-> in a release build, the compiler works hard to keep variables in CPU registers 
+	rather than spilling them onto the stack (which is slower)
+	-> it also minimizes the size of the stack frame by eliminating unnecessary local variables and temporary storage
+
+-> tail call optimization
+	-> if a function ends by returning the result of another function, the compiler can optimize this 
+	by replacing the call with a "tail call". 
+	-> this eliminates the need to keep the current function's stack frame, which can save memory and reduce function call overhead
+
+-> removing redundant null checks
+	-> remove unnecessary null checks if it can determine through static analysis that an object cannot be null at a certain point in the code
+
+-> in-lining property getters/setters
+
+-> remove unused variables and code
+
+-> exception handling optimizations
+
+Questions:
+1. How can we execute some piece of code only in the Debug, or only in the Release mode?
+#if DEBUG
+// code... 
+#endif
+
+#if RELEASE
+// code... 
+#endif
+
+
+

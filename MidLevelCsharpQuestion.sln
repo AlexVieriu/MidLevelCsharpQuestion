@@ -113,6 +113,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "47_Mocks", "Mocks\47_Mocks.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "48_NuGet packages", "48_NuGet packages\48_NuGet packages.csproj", "{F1DB7A89-44FE-45C5-A160-6E786146C521}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49_Debug vs Release builds", "49_Debug vs Release builds\49_Debug vs Release builds.csproj", "{03F33CD2-2CE2-402B-BD95-FD9A31AB9109}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -327,6 +329,10 @@ Global
 		{F1DB7A89-44FE-45C5-A160-6E786146C521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1DB7A89-44FE-45C5-A160-6E786146C521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1DB7A89-44FE-45C5-A160-6E786146C521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F33CD2-2CE2-402B-BD95-FD9A31AB9109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F33CD2-2CE2-402B-BD95-FD9A31AB9109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F33CD2-2CE2-402B-BD95-FD9A31AB9109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F33CD2-2CE2-402B-BD95-FD9A31AB9109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
