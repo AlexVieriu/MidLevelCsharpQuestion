@@ -1,0 +1,20 @@
+﻿NuGet is a Microsoft-supported package manager, so a tool through which developers 
+can create, share, and consume useful code.
+
+Attributes of NUnit:
+[TestFixture]	-> marks a class as a test suite
+[Test]			-> marks a method as a test case
+[SetUp]			-> marks a method to run before each test case is executed
+[TearDown]		-> marks a method to run after each test case is executed
+[OnetimeSetUp]	-> marks a method that run once before any tests in a test fixture are run
+[OneTimeTearDown]-> marks a method that runs once after all the tests in the test fixture have run
+[TestCase]		-> define a single test case with specific input parameters
+[TestCaseSource]-> provides test cases from an external source, such as method, a property, or a field
+[Ignore]		-> temporarily skips or ignores a test
+[Explicit]		-> marks a test or test fixture as requiring explicit execution 
+[Category]		-> groups tests into categories
+[MaxTime]		-> specifies a maximum execution time for the test
+[Timeout]		-> maximum amount of time the test is allowed to run being aborted
+[Retry]			-> Re-runs a test a specified number of times if it fails
+[Sequential]	-> ensure that each test is run in sequence with different sets of parameters
+[Random]		-> inject random value into the test method
