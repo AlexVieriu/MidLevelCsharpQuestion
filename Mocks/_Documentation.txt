@@ -1,0 +1,7 @@
+﻿Questions:
+1. What is Moq?
+-> a mocking library for C#
+-> can create mock to interfaces, classes, Func<> or Action<>
+
+2. What is the difference between mocking and Dependency Injection(DI)?
+-> mocking is hard to implement without DI

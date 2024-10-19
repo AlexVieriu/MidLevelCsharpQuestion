@@ -93,3 +93,5 @@ like for example adding 2 large integers can give a negative number?
 45.2. What is the difference between a framework and a library?
 46.1. What is the problem using composition only?
 46.2. What are forwarding methods?
+47.1. What is Moq?
+47.2. What is the difference between mocking and Dependency Injection(DI)?

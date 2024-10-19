@@ -1,0 +1,49 @@
+﻿1. Do you need to reuse code but avoid tight coupling between classes?
+
+2. Is there a natural "is-a" relationship between the new class and the existing class?
+
+3. Does the new class need to extend the behavior of an existing class but still 
+be considered a subtype?
+
+4. Will the objects of your new class likely need to change behavior dynamically at runtime?
+
+5. Is your goal to create highly flexible and modular designs where objects can 
+be combined in different ways?
+
+6. Are you trying to follow the Single Responsibility Principle (SRP) by delegating 
+responsibilities to different objects?
+
+7. Does the new class only need to use the functionality of an existing class without being a subtype?
+
+8. Is it important to follow the Liskov Substitution Principle (LSP), 
+where derived classes should be able to replace base classes without affecting the program?
+
+9. Is the functionality that you are sharing among classes likely to be shared by multiple unrelated classes?
+
+10. Are you concerned about avoiding issues that might arise from deep inheritance hierarchies?
+
+
+1. composition
+2. inheritance
+3. inheritance
+4. ?
+5. composition
+6. ?
+7. ?
+8. inheritance
+9. composition 
+10. composition
+ 
+
+
+Answers:
+1. Composition: Composition allows reuse without tightly coupling classes.
+2. Inheritance: Inheritance is used when there is a clear "is-a" relationship.
+3. Inheritance: If the new class is logically a subtype, inheritance makes sense.
+4. Composition: Composition allows changing behavior by replacing objects at runtime.
+5. Composition: Composition promotes flexibility and modularity.
+6. Composition: Delegating tasks to other objects (via composition) helps adhere to SRP.
+7. Composition: If the new class only needs to use another class's functionality, composition is more appropriate.
+8. Inheritance: LSP is best maintained through proper use of inheritance, ensuring substitutability.
+9. Composition: When functionality is shared across unrelated classes, composition is preferable.
+10. Composition: Deep inheritance hierarchies can introduce complexity and should be avoided; composition can help simplify designs.
