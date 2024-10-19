@@ -1,0 +1,14 @@
+﻿-> control the compilation process from the level of the code
+
+What is a preprocessor is a program that runs before the actual compiler and 
+applies some operations on code before the compilation starts
+
+Questions:
+1. What is the preprocessor?
+-> known as the pri-compile, is a program that runs before the actual compiler
+applying some code before the compilation starts 
+
+2. How to disable selected warning in a file?
+#pragma warning disable <warning_number>
+// Your code that triggers the warning
+#pragma warning restore <warning_number>

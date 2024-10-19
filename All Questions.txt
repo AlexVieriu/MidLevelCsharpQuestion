@@ -96,3 +96,5 @@ like for example adding 2 large integers can give a negative number?
 47.1. What is Moq?
 47.2. What is the difference between mocking and Dependency Injection(DI)?
 48.1. How can we execute some piece of code only in the Debug, or only in the Release mode?
+49.1. What is the preprocessor?
+49.2. How to disable selected warning in a file?
