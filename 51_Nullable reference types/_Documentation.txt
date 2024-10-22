@@ -17,7 +17,7 @@ Questions:
 -> allows us to suppress a compiler warning
 
 3. It is possible to enable/disable compiler warnings related to nullable reference types on the file level?
-->  it is by using nullable enable and nullable disable preprocessor directives 
+->  it is by using nullable/disable preprocessor directives 
 
 #nullable enable
 string? nullableString = null;    // Nullable reference, valid to assign null
