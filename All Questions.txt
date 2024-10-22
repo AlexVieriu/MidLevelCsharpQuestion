@@ -98,3 +98,8 @@ like for example adding 2 large integers can give a negative number?
 48.1. How can we execute some piece of code only in the Debug, or only in the Release mode?
 49.1. What is the preprocessor?
 49.2. How to disable selected warning in a file?
+50.1. What is the preprocessor?
+50.2. How to disable selected warning in a file?
+51.1. What is the default value of a non-nullable reference types?
+51.2. What is the purpose of the null-forgiving operator("!"-exclamation mark) ? 
+51.3. It is possible to enable/disable compiler warnings related to nullable reference types on the file level?
