@@ -1,0 +1,27 @@
+﻿Nullable reference types feature allows us to declare a reference type as nullable or not nullable.
+The compiler will issue warnings appropriate to the type's nullability.
+
+Nullable reference types feature does not change anything in how the program is executed.
+I only changes how compiler warnings are issued.
+
+When to use Nullable ref type?
+-> think about fields, properties, variable and parameters in your code:
+	-> can they be null or you can be sure that they are not?
+
+
+Questions:
+1. What is the default value of a non-nullable reference types?
+-> null
+
+2. What is the purpose of the null-forgiving operator("!"-exclamation mark) ? 
+-> allows us to suppress a compiler warning
+
+3. It is possible to enable/disable compiler warnings related to nullable reference types on the file level?
+->  it is by using nullable enable and nullable disable preprocessor directives 
+
+#nullable enable
+string? nullableString = null;    // Nullable reference, valid to assign null
+string nonNullable = null;        // Warning: non-nullable string cannot be null
+
+#nullable disable
+string nonNullableAgain = null;  // No warnings, nullable context disabled again
